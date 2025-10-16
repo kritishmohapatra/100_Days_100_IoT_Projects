@@ -6,7 +6,7 @@ This repo showcases my journey of learning and implementing **IoT & Embedded Sys
 Each project is designed to teach a specific concept, sensor, or IoT technique — from basic analog/digital readings to web-based dashboards.
 
 ---
-![100 Days 100 IoT Projects Banner](images/banner.png)
+![100 Days 100 IoT Projects Banner](IMAGES/banner.png)
 
 
 
