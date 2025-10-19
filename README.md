@@ -22,11 +22,12 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 ## 📂 Project List
 
 | Day | Project | Board / Sensor | Description |
-|-----|---------|----------------|-------------|
+|-----|----------|----------------|-------------|
 | 1 | [Auto Night Light](Auto_Night_Light_using_LDR_(ESP32_+_MicroPython)/README.md) | ESP32 + LDR | Automatic LED turns ON/OFF based on ambient light |
-| 2 | [Dimmer LED using Potentiometer](Dimmer_LED_using_Potentiometer_(MicroPython) ) | ESP32 + Potentiometer | LED brightness controlled via potentiometer using ADC + PWM |
+| 2 | [Dimmer LED using Potentiometer](Dimmer_LED_using_Potentiometer_(MicroPython)/README.md) | ESP32 + Potentiometer | LED brightness controlled via potentiometer using ADC + PWM |
 | 3 | [DHT11 Temperature & Humidity Web Server](DHT11_Web_Server_using_ESP32_&_MicroPython/README.md) | ESP32 + DHT11 | Reads temperature & humidity and displays on a live web page |
 | 4 | [1-Digit Seven Segment Display](Single_Digit_Seven_Segment_Display_with_Raspberry_Pi-Pico_(MicroPython)/README.md) | Raspberry Pi Pico + 7-Segment | Displays numeric output using GPIO control |
+| 5 | [Mini Weather Station (DHT11 + LCD)](DHT11_LCD_Display_using_ESP8266_&_MicroPython/README.md) | ESP8266 + DHT11 + I²C LCD | Displays real-time temperature & humidity on 16x2 LCD without flickering |
 
 ---
 
