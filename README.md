@@ -28,10 +28,9 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 4 | [1-Digit Seven Segment Display](Single_Digit_Seven_Segment_Display_with_Raspberry_Pi-Pico_(MicroPython)/README.md) | Raspberry Pi Pico + 7-Segment | Displays numeric output using GPIO control |
 | 5 | [Mini Weather Station (DHT11 + LCD)](DHT11_LCD_Display_using_ESP8266_&_MicroPython/README.md) | ESP8266 + DHT11 + I²C LCD | Displays real-time temperature & humidity on 16x2 LCD without flickering |
 | 6 | [RGB Color Mixer using Potentiometers](RGB_Color_Mixer_using_Potentiometers_(ESP32_+_MicroPython)/README.md) | ESP32 + 3 Potentiometers + RGB LED | Mix RGB colors by adjusting potentiometers using ADC and PWM |
-
+| 7 | [Potentiometer Bar Graph Display](Potentiometer_Visualizer/README.md) | ESP32 + Potentiometer + 10 LEDs | Visualize analog input as a 10-LED bar graph using ADC mapping |
 
 ---
-
 ## 🌟 Features
 
 - Step-by-step learning from **basic to advanced IoT concepts**  
