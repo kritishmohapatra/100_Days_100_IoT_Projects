@@ -30,6 +30,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 | 6 | [RGB Color Mixer using Potentiometers](RGB_Color_Mixer_using_Potentiometers_(ESP32_+_MicroPython)/README.md) | ESP32 + 3 Potentiometers + RGB LED | Mix RGB colors by adjusting potentiometers using ADC and PWM |
 | 7 | [Potentiometer Bar Graph Display](Potentiometer_Visualizer/README.md) | ESP32 + Potentiometer + 10 LEDs | Visualize analog input as a 10-LED bar graph using ADC mapping |
 | 8 | [MQ4 Gas Leak Detection System](MQ4_Gas_Leak_Detection_System_using_ESP32_and_MicroPython/README.md) | ESP32 + MQ4 Sensor + Buzzer | Detects methane gas concentration using MQ4 sensor and triggers alert when gas level exceeds threshold |
+| 9 | [Basic RTC Clock (Serial Monitor Display)](Basic_RTC_Clock_(_Serial_Monitor_Display_)/README.md) | ESP8266 + DS3231 RTC | Displays real-time date, time, and temperature on Serial Monitor using DS3231 RTC |
 
 ---
 ## ðŸŒŸ Features
