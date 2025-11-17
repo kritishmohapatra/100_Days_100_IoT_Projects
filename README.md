@@ -32,6 +32,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 8 | [MQ4 Gas Leak Detection System](MQ4_Gas_Leak_Detection_System_using_ESP32_and_MicroPython/README.md) | ESP32 + MQ4 Sensor + Buzzer | Detects methane gas concentration using MQ4 sensor and triggers alert when gas level exceeds threshold |
 | 9 | [Basic RTC Clock (Serial Monitor Display)](Basic_RTC_Clock_(_Serial_Monitor_Display_)/README.md) | ESP8266 + DS3231 RTC | Displays real-time date, time, and temperature on Serial Monitor using DS3231 RTC |
 | 10 | [IoT Button Counter using ESP8266 & MicroPython](IoT_Button_Counter_using_ESP8266_&_MicroPython/README.md) | ESP8266 + 3 Push Buttons | Counts button presses (Increment, Decrement, Reset) and displays live counter on webpage |
+| 11 | [MicroPython-Based 8×8 LED Matrix Animation Display using ESP8266](MicroPython_Based_8×8_LED_Matrix_Animation_Display_using_ESP8266/README.md) | ESP8266 + MAX7219 8×8 LED Matrix | Displays custom animations (heart beat) on 8×8 LED matrix using MicroPython |
 
 
 ---
