@@ -33,6 +33,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 9 | [Basic RTC Clock (Serial Monitor Display)](Basic_RTC_Clock_(_Serial_Monitor_Display_)/README.md) | ESP8266 + DS3231 RTC | Displays real-time date, time, and temperature on Serial Monitor using DS3231 RTC |
 | 10 | [IoT Button Counter using ESP8266 & MicroPython](IoT_Button_Counter_using_ESP8266_&_MicroPython/README.md) | ESP8266 + 3 Push Buttons | Counts button presses (Increment, Decrement, Reset) and displays live counter on webpage |
 | 11 | [MicroPython-Based 8×8 LED Matrix Animation Display using ESP8266](MicroPython_Based_8×8_LED_Matrix_Animation_Display_using_ESP8266/README.md) | ESP8266 + MAX7219 8×8 LED Matrix | Displays custom animations (heart beat) on 8×8 LED matrix using MicroPython |
+| 12 | [PIR Motion Detector using Raspberry Pi Pico 2W & MicroPython](PIR_Motion_Detector_using_Raspberry_Pi_Pico_2W_&_MicroPython/README.md) | Raspberry Pi Pico 2W + PIR Sensor | Detects motion using PIR sensor and indicates using built-in LED with MicroPython |
 
 
 ---
