@@ -35,6 +35,8 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 11 | [MicroPython-Based 8×8 LED Matrix Animation Display using ESP8266](MicroPython_Based_8×8_LED_Matrix_Animation_Display_using_ESP8266/README.md) | ESP8266 + MAX7219 8×8 LED Matrix | Displays custom animations (heart beat) on 8×8 LED matrix using MicroPython |
 | 12 | [PIR Motion Detector using Raspberry Pi Pico 2W & MicroPython](PIR_Motion_Detector_using_Raspberry_Pi_Pico_2W_&_MicroPython/README.md) | Raspberry Pi Pico 2W + PIR Sensor | Detects motion using PIR sensor and indicates using built-in LED with MicroPython |
 | 13 | [Bluetooth-Based Wireless LED Control System](Bluetooth_Based_Wireless_LED_Control_System/README.md) | Raspberry Pi Pico 2W + HC-05 | Wireless LED ON/OFF control using MicroPython + HC-05 Bluetooth module |
+| 14 | [Pico W Web Servo Controller](Pico_W_Web_Servo_Controller/README.md) | Raspberry Pi Pico 2W + Servo Motor | Control servo angle (0–180°) from browser via WiFi |
+
 ---
 ## 🌟 Features
 
