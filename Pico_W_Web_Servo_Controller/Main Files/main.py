@@ -5,7 +5,7 @@ import time
 
 # Import credentials from the separate secrets file
 ssid = "kritish"
-password = "@Krrs2069"
+password = "password"
 
 # ====== WiFi Setup ======
 print("Connecting to WiFi...")
