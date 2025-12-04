@@ -37,6 +37,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 13 | [Bluetooth-Based Wireless LED Control System](Bluetooth_Based_Wireless_LED_Control_System/README.md) | Raspberry Pi Pico 2W + HC-05 | Wireless LED ON/OFF control using MicroPython + HC-05 Bluetooth module |
 | 14 | [Pico W Web Servo Controller](Pico_W_Web_Servo_Controller/README.md) | Raspberry Pi Pico 2W + Servo Motor | Control servo angle (0–180°) from browser via WiFi |
 | 15 | [ClimaPixel — Mini Weather Display](ClimaPixel_Mini_Weather_Display/README.md) | ESP32/ESP8266 + DHT11 + SSD1306 OLED | Real-time temperature & humidity display with icons on OLED using MicroPython |
+| 16 | [TM1637 Button-Press Counter using ESP8266 & MicroPython](ESP8266_TM1637_Button_Press_Counter_(MicroPython)/README.md) | ESP8266 + TM1637 + Push Button | Counts button presses and displays live counter on TM1637 4-digit display |
 
 ---
 ## 🌟 Features
