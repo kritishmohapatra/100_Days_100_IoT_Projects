@@ -9,8 +9,8 @@ relay_state = 1   # 1 = OFF, 0 = ON
 relay.value(relay_state)
 
 # -------- WiFi --------
-ssid = "kritish"
-password = "@Krrs2069"
+ssid = "ssid"
+password = "password"
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
