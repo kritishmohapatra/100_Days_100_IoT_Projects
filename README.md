@@ -39,6 +39,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 15 | [ClimaPixel — Mini Weather Display](ClimaPixel_Mini_Weather_Display/README.md) | ESP32/ESP8266 + DHT11 + SSD1306 OLED | Real-time temperature & humidity display with icons on OLED using MicroPython |
 | 16 | [TM1637 Button-Press Counter using ESP8266 & MicroPython](ESP8266_TM1637_Button_Press_Counter_(MicroPython)/README.md) | ESP8266 + TM1637 + Push Button | Counts button presses and displays live counter on TM1637 4-digit display |
 | 17 | [IoT Relay Control Web Server (Raspberry Pi Pico 2W)](IoT_Relay_Control_Web_Server_(Raspberry_Pi_Pico_2W)/README.md) | Raspberry Pi Pico 2W + Relay Module | Web-based relay control using MicroPython with a smooth slide switch UI and real-time ON/OFF status over WiFi |
+| 18 | [Blynk-Based IoT Relay Control (Raspberry Pi Pico 2 W)](Blynk_Based_IoT_Relay_Control_(MicroPython)/README.md) | Raspberry Pi Pico 2 W + Relay Module | Mobile app–based relay control using Blynk IoT and MicroPython with real-time ON/OFF control over Wi-Fi |
 
 ---
 ## 🌟 Features
