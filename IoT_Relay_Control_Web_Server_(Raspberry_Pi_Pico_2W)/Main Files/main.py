@@ -10,7 +10,7 @@ relay.value(relay_state)
 
 # -------- WiFi --------
 ssid = "ssid"
-password = "password"
+password = "pass"
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)

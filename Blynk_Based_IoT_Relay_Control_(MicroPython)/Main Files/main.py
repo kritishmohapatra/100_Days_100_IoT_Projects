@@ -6,13 +6,13 @@ import BlynkLib
 from time import sleep
 
 # -------- WIFI DETAILS --------
-wifissid = "kritish" # Your Wi-Fi SSID
-wifipass = "@Krrs2069" # Your Wi-Fi password
+wifissid = "ssid" # Your Wi-Fi SSID
+wifipass = "pass" # Your Wi-Fi password
 
 # Blynk Authorization Token (replace with your Blynk app's token)
-auth = "gmETsu4QEbDNAVJeGAjNaoV006ytWOUA"
+auth = "gmETsu4VJeGAjNaoV006ytWOUA"
 # -------- RELAY / LED --------
-relay = Pin(15, Pin.OUT)   # GP15 (Best for Pico 2 W)
+relay = Pin(2, Pin.OUT)   # GP15 (Best for Pico 2 W)
 relay.value(1)             # OFF (Active LOW)
 
 # -------- WIFI CONNECT --------
