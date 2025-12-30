@@ -44,6 +44,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 | 20 | [Smart IR Object Detection System](Smart_IR_Object_Detection_System/README.md) | ESP8266 + IR Sensor + LED + Buzzer | Detects the presence of an object using an IR sensor and triggers LED and buzzer alerts in real time using MicroPython |
 | 21 | [ESP32 Password Lock System](Password_Lock_System_using_ESP32/README.md) | ESP32 + Keypad + LCD + LEDs | Implements a secure password authentication system using a keypad and LCD with visual LED feedback, developed in MicroPython |
 | 22 | [Blynk Controlled DC Brushless Fan](Blynk_Controlled_DC_Brushless_Fan/README.md) | Raspberry Pi Pico W + Relay + DC Brushless Fan | Controls a DC brushless fan remotely using the Blynk IoT platform and a relay module, implemented in MicroPython |
+| 23 | [ESP32 Hotspot Setup](ESP32_Hotspot_(Access_Point)_Setup_MicroPython/README.md) | ESP32 | Configures ESP32 in Access Point (Hotspot) mode using MicroPython, enabling direct device-to-device connectivity without internet |
 
 
 ---
