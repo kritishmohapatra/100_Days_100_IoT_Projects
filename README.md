@@ -46,6 +46,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 | 22 | [Blynk Controlled DC Brushless Fan](Blynk_Controlled_DC_Brushless_Fan/README.md) | Raspberry Pi Pico W + Relay + DC Brushless Fan | Controls a DC brushless fan remotely using the Blynk IoT platform and a relay module, implemented in MicroPython |
 | 23 | [ESP32 Hotspot Setup](ESP32_Hotspot_(Access_Point)_Setup_MicroPython/README.md) | ESP32 | Configures ESP32 in Access Point (Hotspot) mode using MicroPython, enabling direct device-to-device connectivity without internet |
 | 24 | [Voice-Controlled LED System](Voice_Activated_LED_Control_System/README.md) | Arduino + Python | Controls an LED using voice commands processed in Python and sent to Arduino via serial communication |
+| 25 | [Arduino RGB LED Control with Python GUI](Interactive_LED_Control_System/README.md) | Arduino + Python | Controls an RGB LED using a Python GUI built with CustomTkinter and PyFirmata2, allowing color selection, individual LED on/off control, and brightness adjustment via sliders |
 
 
 ---
