@@ -47,6 +47,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 | 23 | [ESP32 Hotspot Setup](ESP32_Hotspot_(Access_Point)_Setup_MicroPython/README.md) | ESP32 | Configures ESP32 in Access Point (Hotspot) mode using MicroPython, enabling direct device-to-device connectivity without internet |
 | 24 | [Voice-Controlled LED System](Voice_Activated_LED_Control_System/README.md) | Arduino + Python | Controls an LED using voice commands processed in Python and sent to Arduino via serial communication |
 | 25 | [Arduino RGB LED Control with Python GUI](Interactive_LED_Control_System/README.md) | Arduino + Python | Controls an RGB LED using a Python GUI built with CustomTkinter and PyFirmata2, allowing color selection, individual LED on/off control, and brightness adjustment via sliders |
+| 26 | [Clap Toggle Switch using ESP32 (MicroPython)](Clap_Toggle_Switch_using_ESP32_&_Digital_Sound_Sensor_(MicroPython)/README.md) | ESP32 + MicroPython | A clap-controlled toggle switch using a digital sound sensor where one clap turns the output ON and the next clap turns it OFF, implemented with debounce logic for reliable operation |
 
 
 ---
