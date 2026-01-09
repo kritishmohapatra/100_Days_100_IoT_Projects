@@ -50,6 +50,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 | 26 | [Clap Toggle Switch using ESP32 (MicroPython)](Clap_Toggle_Switch_using_ESP32_&_Digital_Sound_Sensor_(MicroPython)/README.md) | ESP32 + MicroPython | A clap-controlled toggle switch using a digital sound sensor where one clap turns the output ON and the next clap turns it OFF, implemented with debounce logic for reliable operation |
 | 27 | [IR Sensor Telegram Alert using ESP32 (MicroPython)](ESP32_IR_Sensor_Telegram_Alert_(MicroPython)/README.md) | ESP32 + MicroPython | An IR sensorâ€“based object detection system that sends real-time alert notifications to a Telegram channel whenever motion or object presence is detected near the sensor |
 | 28 | [Soil Moisture Sensor Dry/Wet Detection using ESP8266 (MicroPython)](Soil_Moisture_Sensor_DryWet_Detection_(ESP8266_MicroPython)/README.md) | ESP8266 + MicroPython | A soil moisture monitoring system that reads analog sensor values and determines dry or wet soil conditions in real time, displaying the status on the serial monitor |
+| 29 | [Rain Sensor Analog Detection using ESP8266 (MicroPython)](Rain_Detection_System_using_ESP8266_(Analog_Mode)/README.md) | ESP8266 + MicroPython | An analog rain detection system that reads real-time sensor values to determine rain intensity (no rain, light rain, heavy rain) and displays the status on the serial monitor |
 
 
 
