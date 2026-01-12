@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pico W LED Control</title>
+</head>
+
+<body style="text-align:center;font-family:Arial">
+
+<h2>LED Control (WebSocket)</h2>
+
+<button onclick="sendCmd('ON')">LED ON</button>
+<button onclick="sendCmd('OFF')">LED OFF</button>
+
+<pre id="log"></pre>
+
+<script>
+let log = document.getElementById("log");   // ✅ FIX
+let ws = new WebSocket("ws://pico ip");
+
+ws.onopen = () => {
+  log.textContent += "Connected to Pico\n";
+};
+
+ws.onmessage = (e) => {
+  log.textContent += e.data + "\n";
+};
+
+function sendCmd(cmd) {
+  ws.send(cmd);
+  log.textContent += "Sent: " + cmd + "\n";
+}
+</script>
+
+</body>
+</html>
