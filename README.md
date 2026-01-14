@@ -53,6 +53,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 | 29 | [Rain Sensor Analog Detection using ESP8266 (MicroPython)](Rain_Detection_System_using_ESP8266_(Analog_Mode)/README.md) | ESP8266 + MicroPython | An analog rain detection system that reads real-time sensor values to determine rain intensity (no rain, light rain, heavy rain) and displays the status on the serial monitor |
 | 30 | [Ultrasonic Distance Indicator using ESP32 (MicroPython)](Ultrasonic_LED_Distance_Indicator_ESP32_MicroPython/README.md) | ESP32 + MicroPython | A distance-based indication system using an HC-SR04 ultrasonic sensor that measures real-time distance and indicates object proximity using red and green LEDs |
 | 31 | [WebSocket LED Control using Raspberry Pi Pico W](WebSocket_LED_Control_using_Raspberry_Pi_Pico_W/README.md) | Pico W + MicroPython | A real-time LED control system using WebSockets where a browser communicates directly with Raspberry Pi Pico W over WiFi to turn an LED ON or OFF without page refresh |
+| 32 | [MQ-135 Gas Sensor with ESP32](MQ_135_Gas_Sensor_with_ESP32_(MicroPython)/README.md) | ESP32 + MicroPython | A gas level monitoring system using the MQ-135 sensor and ESP32 to read and average analog sensor values for stable environmental gas detection |
 
 
 
