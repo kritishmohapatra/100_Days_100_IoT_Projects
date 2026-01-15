@@ -55,6 +55,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 31 | [WebSocket LED Control using Raspberry Pi Pico W](WebSocket_LED_Control_using_Raspberry_Pi_Pico_W/README.md) | Pico W + MicroPython | A real-time LED control system using WebSockets where a browser communicates directly with Raspberry Pi Pico W over WiFi to turn an LED ON or OFF without page refresh |
 | 32 | [MQ-135 Gas Sensor with ESP32](MQ_135_Gas_Sensor_with_ESP32_(MicroPython)/README.md) | ESP32 + MicroPython | A gas level monitoring system using the MQ-135 sensor and ESP32 to read and average analog sensor values for stable environmental gas detection |
 | 33 | [MQ-7 Carbon Monoxide Sensor with ESP32](MQ7_CO_Gas_Detection_ESP32/README.md) | ESP32 + MicroPython | A carbon monoxide monitoring system using the MQ-7 sensor and ESP32 to read and average analog sensor values for real-time CO detection |
+| 34 | [Servo Motor Control with Raspberry Pi Pico 2 W](Servo_Motor_Control_with_Raspberry_Pi_Pico_2_W_(MicroPython)/README.md) | Raspberry Pi Pico 2 W + MicroPython | A simulation-based servo motor control project using PWM, where the user inputs an angle (0–180°) via serial monitor and the servo rotates accordingly with safe angle clamping |
 
 
 
