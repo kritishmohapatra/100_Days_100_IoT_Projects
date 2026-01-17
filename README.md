@@ -57,6 +57,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 33 | [MQ-7 Carbon Monoxide Sensor with ESP32](MQ7_CO_Gas_Detection_ESP32/README.md) | ESP32 + MicroPython | A carbon monoxide monitoring system using the MQ-7 sensor and ESP32 to read and average analog sensor values for real-time CO detection |
 | 34 | [Servo Motor Control with Raspberry Pi Pico 2 W](Servo_Motor_Control_with_Raspberry_Pi_Pico_2_W_(MicroPython)/README.md) | Raspberry Pi Pico 2 W + MicroPython | A simulation-based servo motor control project using PWM, where the user inputs an angle (0–180°) via serial monitor and the servo rotates accordingly with safe angle clamping |
 | 35 | [ESP8266 Touch Sensor LED Control](ESP8266_Touch_Sensor_LED_Control_(MicroPython)/README.md) | ESP8266 (NodeMCU) + MicroPython | A capacitive touch-based toggle switch using the TTP223 touch sensor, where each touch alternates the state of an external LED with proper debounce handling |
+| 36 | [ESP8266 DHT11 Live Monitor Matplotlib and MicroPython](ESP8266_DHT11_Live_Graph_(MicroPython_+_Matplotlib)/README.md) | ESP8266 + MicroPython + Matplotlib | Real-time DHT11 temperature and humidity visualization with a dark neon-themed live graph using serial communication |
 
 
 
