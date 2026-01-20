@@ -1,3 +1,10 @@
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="50"/>
+</p>
+
 # 100 Days 100 IoT Projects 🚀
 
 Welcome to my **100 Days 100 IoT Projects** repository!  
@@ -6,16 +13,48 @@ This repo showcases my journey of learning and implementing **IoT & Embedded Sys
 Each project is designed to teach a specific concept, sensor, or IoT technique — from basic analog/digital readings to web-based dashboards.
 
 ---
+![MicroPython](https://img.shields.io/badge/MicroPython-000000?style=for-the-badge&logo=python&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![ESP8266](https://img.shields.io/badge/ESP8266-000000?style=for-the-badge)
+![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![GitHub stars](https://img.shields.io/github/stars/kritishmohapatra/100_Days_100_IoT_Projects?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/kritishmohapatra/100_Days_100_IoT_Projects?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/kritishmohapatra/100_Days_100_IoT_Projects?style=for-the-badge)
+
+
 ![100 Days 100 IoT Projects Banner](IMAGES/banner.png)
 
 
 
 ## 🧰 Technologies & Boards Used
 
-- **Microcontrollers:** ESP32, Raspberry Pi Pico  
-- **Programming:** MicroPython  
-- **Sensors & Modules:** LDR, Potentiometer, DHT11, HC-SR04, 7-Segment Display, and more  
-- **Concepts Covered:** ADC, PWM, Digital I/O, Web Server, GPIO Control, Sensor Interfacing  
+## 🧰 Technologies, Boards & Tools Used
+
+### 🔹 Hardware
+- ESP32, ESP8266 (NodeMCU)
+- Raspberry Pi Pico / Pico W / Pico 2 W
+- XIAO ESP32-S3
+- Arduino (UNO / Nano)
+
+### 🔹 Programming & Platforms
+- MicroPython
+- Python (Tkinter, CustomTkinter, Matplotlib)
+- Arduino + Python (Serial, PyFirmata)
+
+### 🔹 Sensors & Modules
+- LDR, Potentiometer, DHT11
+- PIR, IR, Ultrasonic (HC-SR04)
+- Gas Sensors (MQ-4, MQ-7, MQ-135)
+- RTC (DS3231), TM1637, OLED, LCD
+- Relay, Servo, Touch Sensor
+
+### 🔹 Concepts Covered
+- ADC, PWM, GPIO
+- Wi-Fi, Web Server, WebSocket
+- Bluetooth, Blynk IoT
+- Data logging & visualization
+- Simulation-based testing
+
 
 ---
 
@@ -63,29 +102,40 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 
 
 ---
-## 🌟 Features
+## 🌟 Key Highlights
 
-- Step-by-step learning from **basic to advanced IoT concepts**  
-- Hands-on experience with **analog & digital sensors**  
-- Integration of **web interfaces** for IoT visualization  
-- Ready-to-use **MicroPython code** for each project  
-- Clean **folder-wise organization** for easy navigation  
+- 📘 Step-by-step progression from **basic to advanced IoT concepts**
+- 🔌 Hands-on experience with **real hardware and simulations**
+- 🌐 IoT dashboards using **Web Server, WebSocket & Blynk**
+- 📊 **Python & Matplotlib-based live data visualization**
+- 🧠 Beginner-friendly **documentation & explanations**
+- 📁 Clean, folder-wise project organization
 
 ---
-
 ## 📈 Roadmap
 
-- Complete **100 IoT projects** in 100 days  
-- Each project will have a **dedicated folder, main.py, README.md, and circuit diagram**  
-- Upcoming projects include: Ultrasonic Sensors, Gas Sensors, Relay Control, OLED Displays, RGB LEDs, Smart Home Automation, and more  
+- 🎯 Complete **100 IoT projects in 100 days**
+- 📂 Each project includes:
+  - `main.py`
+  - Detailed `README.md`
+  - Circuit diagram / simulation
+- 🔮 Upcoming focus areas:
+  - Cloud & IoT dashboards
+  - OTA & firmware updates
+  - Power optimization
+  - Smart home & automation systems
+  - AI-assisted IoT (basic level)
+ation, and more  
 
 ---
 
 ## 🧑‍💻 Author
 
 **Kritish Mohapatra**  
-Third Year B.Tech, Electrical Engineering  
-📡 Focused on IoT, Embedded Systems, and MicroPython Projects  
+🎓 Third Year B.Tech – Electrical Engineering  
+📡 Interests: IoT | Embedded Systems | MicroPython | Automation  
+🌱 Building in public through #100DaysOfIoT
+
 
 ---
 
