@@ -113,7 +113,7 @@ Pico W also sends a response back to the browser.
 - Open `led.html` in a browser
 - Update WebSocket URL:
 ```js
-ws://<PICO_IP>
+ws://<PICO_IP>:80
 ```
 ## 🌐 Step 4: Control the LED
 

@@ -15,7 +15,7 @@
 
 <script>
 let log = document.getElementById("log");   // ✅ FIX
-let ws = new WebSocket("ws://pico ip");
+let ws = new WebSocket("ws://pico ip:80");
 
 ws.onopen = () => {
   log.textContent += "Connected to Pico\n";
