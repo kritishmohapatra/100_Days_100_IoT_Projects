@@ -99,6 +99,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 36 | [ESP8266 DHT11 Live Monitor Matplotlib and MicroPython](ESP8266_DHT11_Live_Graph_(MicroPython_+_Matplotlib)/README.md) | ESP8266 + MicroPython + Matplotlib | Real-time DHT11 temperature and humidity visualization with a dark neon-themed live graph using serial communication |
 | 37 | [XIAO ESP32 4-LED Control using CustomTkinter and MicroPython](XIAO_ESP32_4_LED_Control_using_CustomTkinter_&_MicroPython/README.md) | XIAO ESP32-S3 + MicroPython + CustomTkinter | Desktop GUI application to control four ESP32 GPIO LEDs via serial communication using a modern dark-mode CustomTkinter interface | ✅ |
 | 38 | [ESP32 OLED Smart UI with Eyes Animation, Time & Weather (MicroPython)](ESP32_OLED_Smart_UI_Eyes_Animation_Time_&_Weather_(MicroPython)/README.md) | ESP32 + SSD1306 OLED + MicroPython | Interactive OLED UI featuring animated eyes, touch-based menu navigation, NTP-synced IST date & time, and live weather data using OpenWeatherMap API | ✅ |
+| 39 | [ESP32 Stepper Motor Control using A4988 (MicroPython)](Stepper_Motor_Control_using_ESP32_&_A4988_(MicroPython)/README.md) | ESP32 + A4988 + NEMA 17 | Stepper motor control using STEP/DIR signals with direction control, speed adjustment via delay, and serial monitoring using print statements | ✅ |
 
 
 
