@@ -102,6 +102,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 39 | [ESP32 Stepper Motor Control using A4988 (MicroPython)](Stepper_Motor_Control_using_ESP32_&_A4988_(MicroPython)/README.md) | ESP32 + A4988 + NEMA 17 | Stepper motor control using STEP/DIR signals with direction control, speed adjustment via delay, and serial monitoring using print statements | ✅ |
 | 40 | [Pico W Async LED Control (MicroPython)](Pico_W_Async_LED_Control_(MicroPython)/README.md) | Raspberry Pi Pico W | Async web server using uasyncio to control onboard LED via browser with ON/OFF buttons and fetch-based requests | ✅ |
 | 41 | [EEPROM Simulation using MicroPython (ESP32)](EEPROM_Simulation_using_MicroPython_on_ESP32_(Wokwi)/README.md) | ESP32 | File-based EEPROM emulation using MicroPython with byte-level read/write and persistent string storage | ✅ |
+| 42 | [ESP32 DC Motor Web Speed Control (MicroPython)](DC_Motor_Speed_Control_(Web_Slider)/README.md) | ESP32 + L298N | Web-based slider controlled DC motor speed system using PWM, MicroPython web server, and L298N driver | ✅ |
 
 
 
