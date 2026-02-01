@@ -104,6 +104,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 41 | [EEPROM Simulation using MicroPython (ESP32)](EEPROM_Simulation_using_MicroPython_on_ESP32_(Wokwi)/README.md) | ESP32 | File-based EEPROM emulation using MicroPython with byte-level read/write and persistent string storage | ✅ |
 | 42 | [ESP32 DC Motor Web Speed Control (MicroPython)](DC_Motor_Speed_Control_(Web_Slider)/README.md) | ESP32 + L298N | Web-based slider controlled DC motor speed system using PWM, MicroPython web server, and L298N driver | ✅ |
 | 43 | [Temperature Based LED Indicator (MicroPython)](Temperature_Based_LED_Indicator_(MicroPython_ESP32)/README.md) | ESP32 + DHT22 | Beginner-friendly ESP32 project that reads temperature data from DHT22 and visually indicates temperature levels using LEDs | ✅ |
+| 44 | [Flask LED Control using MicroPython](Flask_Server_Based_LED_Control_using_MicroPython/README.md) | ESP32 / Pico W | Beginner-friendly IoT project where a Flask web server controls an LED on ESP32 or Pico W through HTTP polling using MicroPython | ✅ |
 
 
 

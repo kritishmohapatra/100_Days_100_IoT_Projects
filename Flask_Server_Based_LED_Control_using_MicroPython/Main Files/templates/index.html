@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask LED Control</title>
+</head>
+<body>
+
+<h2>Flask → Pico LED Control</h2>
+
+<button onclick="ledOn()">LED ON</button>
+<button onclick="ledOff()">LED OFF</button>
+
+<p>Status: <b id="status">OFF</b></p>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
