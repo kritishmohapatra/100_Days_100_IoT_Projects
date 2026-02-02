@@ -105,6 +105,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 42 | [ESP32 DC Motor Web Speed Control (MicroPython)](DC_Motor_Speed_Control_(Web_Slider)/README.md) | ESP32 + L298N | Web-based slider controlled DC motor speed system using PWM, MicroPython web server, and L298N driver | ✅ |
 | 43 | [Temperature Based LED Indicator (MicroPython)](Temperature_Based_LED_Indicator_(MicroPython_ESP32)/README.md) | ESP32 + DHT22 | Beginner-friendly ESP32 project that reads temperature data from DHT22 and visually indicates temperature levels using LEDs | ✅ |
 | 44 | [Flask LED Control using MicroPython](Flask_Server_Based_LED_Control_using_MicroPython/README.md) | ESP32 / Pico W | Beginner-friendly IoT project where a Flask web server controls an LED on ESP32 or Pico W through HTTP polling using MicroPython | ✅ |
+| 45 | [Smart Cooling System using ESP8266](Smart_Cooling_System_using_ESP8266_DHT11_&_Relay/README.md) | ESP8266+DHT11+BRUSHLESS FAN | Beginner-friendly IoT project that automatically controls a fan using DHT11 temperature sensor and an active-LOW relay with MicroPython | ✅ |
 
 
 
