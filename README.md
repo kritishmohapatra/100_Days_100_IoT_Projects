@@ -109,6 +109,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 46 | [Soil & Weather Monitoring using ESP8266 and ThingSpeak](IoT_Based_Soil_&_Weather_Monitoring_using_ESP8266_and_ThingSpeak/README.md) | ESP8266 + DHT11 + Soil Sensor | Beginner-friendly IoT project that monitors soil moisture, temperature, and humidity and visualizes the data on the ThingSpeak cloud using MicroPython | ✅ |
 | 47 | [Smart Irrigation System using XIAO ESP32-S3 and Blynk](IoT_Smart_Irrigation_System/README.md) | XIAO ESP32-S3 + Soil Sensor + Relay + Pump | A smart irrigation system that monitors soil moisture in real time and allows manual water pump control via the Blynk IoT platform using MicroPython | ✅ |
 | 48 | [HTTP-Based DHT11 Data Logger using Raspberry Pi Pico W](Pico_2_W_Dht11_Http_Csv_Logger/README.md) | Raspberry Pi Pico 2W + DHT11 | A simple IoT data logging system that reads temperature and humidity from a DHT11 sensor and sends the data via HTTP POST to a Flask server, where it is stored in a CSV file for analysis | ✅ |
+| 49 | [ThingsBoard RPC LED Control & DHT11 Telemetry using Raspberry Pi Pico 2 W](Raspberry_Pi_Pico_2_W_ThingsBoard_IoT/README.md) | Raspberry Pi Pico 2 W + DHT11 | A cloud-connected IoT system using MicroPython where a Raspberry Pi Pico 2 W sends temperature and humidity data to ThingsBoard via MQTT and allows remote LED control using RPC from a dashboard | ✅ |
 
 
 
