@@ -111,6 +111,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 48 | [HTTP-Based DHT11 Data Logger using Raspberry Pi Pico W](Pico_2_W_Dht11_Http_Csv_Logger/README.md) | Raspberry Pi Pico 2W + DHT11 | A simple IoT data logging system that reads temperature and humidity from a DHT11 sensor and sends the data via HTTP POST to a Flask server, where it is stored in a CSV file for analysis | ✅ |
 | 49 | [ThingsBoard RPC LED Control & DHT11 Telemetry using Raspberry Pi Pico 2 W](Raspberry_Pi_Pico_2_W_ThingsBoard_IoT/README.md) | Raspberry Pi Pico 2 W + DHT11 | A cloud-connected IoT system using MicroPython where a Raspberry Pi Pico 2 W sends temperature and humidity data to ThingsBoard via MQTT and allows remote LED control using RPC from a dashboard | ✅ |
 | 50 | [ESP32 BMP180 Atmospheric Monitoring with Blynk IoT](IoT_Atmospheric_Monitoring_System_using_ESP32,_wowki_&_Blynk/README.md) | ESP32 + BMP180 | A cloud-connected IoT system using MicroPython where an ESP32 measures temperature, atmospheric pressure, and altitude using the BMP180 sensor and sends real-time data to the Blynk IoT dashboard via Wi-Fi | ✅ |
+| 51 | [ESP8266 Smart Home Automation using MicroPython & Blynk](Smart_Home_Automation_System/README.md) | ESP8266 + DHT11 + Relay | A cloud-based smart home automation system where an ESP8266 controls home appliances via relay and monitors temperature & humidity using DHT11, with real-time control and monitoring through the Blynk IoT dashboard over Wi-Fi | ✅ |
 
 
 
