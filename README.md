@@ -112,6 +112,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 49 | [ThingsBoard RPC LED Control & DHT11 Telemetry using Raspberry Pi Pico 2 W](Raspberry_Pi_Pico_2_W_ThingsBoard_IoT/README.md) | Raspberry Pi Pico 2 W + DHT11 | A cloud-connected IoT system using MicroPython where a Raspberry Pi Pico 2 W sends temperature and humidity data to ThingsBoard via MQTT and allows remote LED control using RPC from a dashboard | ✅ |
 | 50 | [ESP32 BMP180 Atmospheric Monitoring with Blynk IoT](IoT_Atmospheric_Monitoring_System_using_ESP32,_wowki_&_Blynk/README.md) | ESP32 + BMP180 | A cloud-connected IoT system using MicroPython where an ESP32 measures temperature, atmospheric pressure, and altitude using the BMP180 sensor and sends real-time data to the Blynk IoT dashboard via Wi-Fi | ✅ |
 | 51 | [ESP8266 Smart Home Automation using MicroPython & Blynk](Smart_Home_Automation_System/README.md) | ESP8266 + DHT11 + Relay | A cloud-based smart home automation system where an ESP8266 controls home appliances via relay and monitors temperature & humidity using DHT11, with real-time control and monitoring through the Blynk IoT dashboard over Wi-Fi | ✅ |
+| 52 | [IoT Sensor Anomaly Detection using ESP8266 & ThingSpeak](IoT_Environment_Monitoring_With_Anomaly_Detection/README.md) | ESP8266 + DHT11 + LDR + MATLAB | An IoT-based environmental monitoring system that uploads real-time sensor data to ThingSpeak and performs statistical anomaly detection using Z-score analysis in MATLAB, with visualization and outlier classification | ✅ |
 
 
 
