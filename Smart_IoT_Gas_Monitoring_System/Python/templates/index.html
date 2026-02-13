@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Page title -->
+    <title>Smart IoT Live Dashboard</title>
+
+    <!-- Chart.js library for live graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- ---------------- CSS STYLING ---------------- -->
+    <style>
+        /* Page base styling */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#0f172a;
+            color:#e5e7eb;
+            margin:0;
+        }
+
+        /* Dashboard heading */
+        h1{
+            text-align:center;
+            color:#38bdf8;
+            margin-top:20px;
+        }
+
+        /* Status text container */
+        .status{
+            text-align:center;
+            font-size:32px;
+            font-weight:bold;
+            margin:15px;
+        }
+
+        /* SAFE status color */
+        .safe{ color:#22c55e; }
+
+        /* DANGER status color */
+        .danger{ color:#ef4444; }
+
+        /* Grid layout for charts */
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+            gap:20px;
+            padding:20px;
+        }
+
+        /* Card design for each chart */
+        .card{
+            background:#1e293b;
+            padding:15px;
+            border-radius:12px;
+        }
+        footer{
+            text-align:center;
+            padding:15px;
+            background:#020617;
+            color:#94a3b8;
+            font-size:14px;
+            margin-top:10px;
+       }
+
+    </style>
+</head>
+
+<body>
+
+<!-- Dashboard Title -->
+<h1>🔥 Smart IoT Live Monitoring Dashboard</h1>
+
+<!-- Live system status -->
+<div class="status">
+    STATUS:
+    <span id="statusText" class="safe">SAFE</span>
+</div>
+
+<!-- Graph containers -->
+<div class="grid">
+    <div class="card"><canvas id="gasChart"></canvas></div>
+    <div class="card"><canvas id="tempChart"></canvas></div>
+    <div class="card"><canvas id="humChart"></canvas></div>
+    <div class="card"><canvas id="soilChart"></canvas></div>
+</div>
+
+<!-- ---------------- JAVASCRIPT LOGIC ---------------- -->
+<script>
+    // Maximum number of points visible on graph
+    const maxPoints = 20;
+
+    /*
+        Function to create a line chart
+        id     → canvas element ID
+        label  → graph label
+        color  → line color
+    */
+    function createChart(id, label, color){
+        return new Chart(document.getElementById(id), {
+            type: "line",
+            data: {
+                labels: [],
+                datasets: [{
+                    label: label,
+                    data: [],
+                    borderColor: color,
+                    tension: 0.3   // smooth curve
+                }]
+            },
+            options: {
+                animation: false,  // disable animation for real-time update
+                scales: {
+                    x: { display: false } // hide x-axis
+                }
+            }
+        });
+    }
+
+    // Create charts for each sensor
+    const gasChart  = createChart("gasChart", "Gas", "#ef4444");
+    const tempChart = createChart("tempChart", "Temperature", "#22c55e");
+    const humChart  = createChart("humChart", "Humidity", "#38bdf8");
+    const soilChart = createChart("soilChart", "Soil", "#eab308");
+
+    /*
+        Fetch live data from Flask server
+        Update graphs and system status
+    */
+    async function update(){
+        // Fetch latest sensor data from backend
+        const res = await fetch("/latest");
+        const data = await res.json();
+
+        // Current time for x-axis
+        const time = new Date().toLocaleTimeString();
+
+        /*
+            Push new value into chart
+            Maintain fixed number of data points
+        */
+        function push(chart, val){
+            chart.data.labels.push(time);
+            chart.data.datasets[0].data.push(val);
+
+            // Remove old data to keep graph clean
+            if(chart.data.labels.length > maxPoints){
+                chart.data.labels.shift();
+                chart.data.datasets[0].data.shift();
+            }
+            chart.update();
+        }
+
+        // Update all sensor graphs
+        push(gasChart, data.gas);
+        push(tempChart, data.temp);
+        push(humChart, data.humidity);
+        push(soilChart, data.soil);
+
+        // Update system status display
+        const statusText = document.getElementById("statusText");
+
+        if(data.status === "DANGER"){
+            statusText.innerText = "DANGER";
+            statusText.className = "danger";
+            document.body.style.background = "#3f1d1d"; // red alert
+        } else {
+            statusText.innerText = "SAFE";
+            statusText.className = "safe";
+            document.body.style.background = "#0f172a"; // normal background
+        }
+    }
+
+    // Refresh data every 2 seconds
+    setInterval(update, 2000);
+</script>
+
+</body>
+<footer>
+    Developed with ❤️ by Kritish Mohapatra
+</footer>
+</html>
