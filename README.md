@@ -128,7 +128,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 -  Clean, folder-wise project organization
 
 ---
-## 📈 Roadmap
+##  Roadmap
 
 -  Complete **100 IoT projects in 100 days**
 -  Each project includes:
@@ -145,7 +145,7 @@ ation, and more
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
  Third Year B.Tech – Electrical Engineering  
