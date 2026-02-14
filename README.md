@@ -5,7 +5,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="50"/>
 </p>
 
-# 100 Days 100 IoT Projects 🚀
+# 100 Days 100 IoT Projects 
 
 Welcome to my **100 Days 100 IoT Projects** repository!  
 This repo showcases my journey of learning and implementing **IoT & Embedded Systems projects** using **ESP32, Raspberry Pi Pico**, and **MicroPython**.  
@@ -26,9 +26,9 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 
 
 
-## 🧰 Technologies & Boards Used
 
-## 🧰 Technologies, Boards & Tools Used
+
+## Technologies, Boards & Tools Used
 
 ### 🔹 Hardware
 - ESP32, ESP8266 (NodeMCU)
@@ -58,7 +58,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 
 ---
 
-## 📂 Project List
+##  Project List
 | Day | Project | Board / Sensor | Description |
 |-----|----------|----------------|-------------|
 | 1 | [Auto Night Light](Auto_Night_Light_using_LDR_(ESP32_+_MicroPython)/README.md) | ESP32 + LDR | Automatic LED turns ON/OFF based on ambient light |
@@ -118,24 +118,24 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 
 
 ---
-## 🌟 Key Highlights
+##  Key Highlights
 
-- 📘 Step-by-step progression from **basic to advanced IoT concepts**
-- 🔌 Hands-on experience with **real hardware and simulations**
-- 🌐 IoT dashboards using **Web Server, WebSocket & Blynk**
-- 📊 **Python & Matplotlib-based live data visualization**
-- 🧠 Beginner-friendly **documentation & explanations**
-- 📁 Clean, folder-wise project organization
+-  Step-by-step progression from **basic to advanced IoT concepts**
+-  Hands-on experience with **real hardware and simulations**
+-  IoT dashboards using **Web Server, WebSocket & Blynk**
+-  **Python & Matplotlib-based live data visualization**
+-  Beginner-friendly **documentation & explanations**
+-  Clean, folder-wise project organization
 
 ---
 ## 📈 Roadmap
 
-- 🎯 Complete **100 IoT projects in 100 days**
-- 📂 Each project includes:
+-  Complete **100 IoT projects in 100 days**
+-  Each project includes:
   - `main.py`
   - Detailed `README.md`
   - Circuit diagram / simulation
-- 🔮 Upcoming focus areas:
+-  Upcoming focus areas:
   - Cloud & IoT dashboards
   - OTA & firmware updates
   - Power optimization
@@ -148,9 +148,9 @@ ation, and more
 ## 🧑‍💻 Author
 
 **Kritish Mohapatra**  
-🎓 Third Year B.Tech – Electrical Engineering  
-📡 Interests: IoT | Embedded Systems | MicroPython | Automation  
-🌱 Building in public through #100DaysOfIoT
+ Third Year B.Tech – Electrical Engineering  
+ Interests: IoT | Embedded Systems | MicroPython | Automation  
+ Building in public through #100DaysOfIoT
 
 
 ---
