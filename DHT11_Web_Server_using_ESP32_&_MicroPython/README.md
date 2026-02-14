@@ -8,7 +8,7 @@ This project is a complete solution for creating a wireless environmental monito
 ![Status](https://img.shields.io/badge/Working-Success-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-### ⚙️ How It Works
+###  How It Works
 
 The system operates on a client-server model:
 
@@ -21,12 +21,12 @@ The system operates on a client-server model:
 
 ***
 
-### 🧱 Components and Connections
+###  Components and Connections
 
 You will need the following components to assemble this project:
 
-* **ESP32 Development Board** 🧠
-* **DHT11 Temperature and Humidity Sensor** 💧🌡️
+* **ESP32 Development Board** 
+* **DHT11 Temperature and Humidity Sensor** 
 * **Breadboard** (optional, but recommended)
 * **Jumper Wires**
 * **Micro-USB Cable** for power and data transfer
@@ -70,7 +70,7 @@ The wiring is straightforward. The DHT11 sensor has three pins: VCC, GND, and a 
 3.  **Access the Web Server**: Open a web browser on any device connected to the same network and enter the IP address. The web page will load, displaying the live temperature and humidity data. The `meta refresh` tag will ensure the page updates automatically every 3 seconds.
 
 ***
-### ✨ A Message for Students
+###  A Message for Students
 
 This project is more than just code and wires; it's your first step into the incredible world of the **Internet of Things (IoT)**. You've built a device that connects the physical world (temperature and humidity) to the digital world (a web page).
 
@@ -81,7 +81,7 @@ If you found this project helpful, give it a star on GitHub! Your support helps 
 ---
 
 
-## 👨‍💻 Author
+##  Author
 
 - **Name:** Kritish Mohapatra 
 - **GitHub:** [Kritish Mohapatra](https://github.com/kritishmohapatra)
