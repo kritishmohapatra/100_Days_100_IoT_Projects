@@ -1,5 +1,7 @@
 
 <p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/MicroPython_new_logo.svg" width="40" style="filter: invert(100%);" alt="White MicroPython Logo"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Micropython-logo.svg" width="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="50"/>
@@ -114,6 +116,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 51 | [ESP8266 Smart Home Automation using MicroPython & Blynk](Smart_Home_Automation_System/README.md) | ESP8266 + DHT11 + Relay | A cloud-based smart home automation system where an ESP8266 controls home appliances via relay and monitors temperature & humidity using DHT11, with real-time control and monitoring through the Blynk IoT dashboard over Wi-Fi | ✅ |
 | 52 | [IoT Sensor Anomaly Detection using ESP8266 & ThingSpeak](IoT_Environment_Monitoring_With_Anomaly_Detection/README.md) | ESP8266 + DHT11 + LDR + MATLAB | An IoT-based environmental monitoring system that uploads real-time sensor data to ThingSpeak and performs statistical anomaly detection using Z-score analysis in MATLAB, with visualization and outlier classification | ✅ |
 | 53 | [Smart IoT Gas Monitoring System](Smart_IoT_Gas_Monitoring_System/README.md) | ESP32 + MQ Gas Sensor + DHT11 + Flask + Chart.js | An AI-inspired end-to-end IoT gas monitoring system that streams real-time sensor data to a Flask backend, applies moving-average based anomaly detection for SAFE/DANGER classification, logs data for analytics, and visualizes live environmental insights on an interactive web dashboard | ✅ |
+| 54 | [ESP8266 ESP-NOW LED Control](Led_ON_OFF_By_Input_from_one_ESP8266/README.md) | ESP8266 + ESP-NOW + MicroPython | A low-latency wireless LED control system using ESP-NOW protocol, where one ESP8266 acts as a transmitter and the other as a receiver, enabling real-time device control without WiFi infrastructure | ✅ |
 
 
 
