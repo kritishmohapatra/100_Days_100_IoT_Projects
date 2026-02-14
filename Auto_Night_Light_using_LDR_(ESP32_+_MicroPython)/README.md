@@ -1,11 +1,11 @@
-# 🌙 Auto Night Light using LDR (ESP32 + MicroPython)
+# Auto Night Light using LDR (ESP32 + MicroPython)
 
 An automatic night light system built using an **ESP32**, **LDR sensor**, and **MicroPython**.  
 The LED automatically turns **ON** when it gets dark and **OFF** in bright light — a simple yet powerful IoT automation project.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project uses a **Light Dependent Resistor (LDR)** to detect ambient light levels.  
 The LDR and a fixed resistor form a **voltage divider**, and the ESP32’s **ADC (Analog to Digital Converter)** reads this voltage.  
@@ -13,7 +13,7 @@ Depending on the light intensity, the ESP32 decides whether to **turn the LED ON
 
 ---
 
-## ⚙️ Circuit Diagram
+##  Circuit Diagram
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 **Voltage Divider:**
@@ -30,7 +30,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 ---
 
-## 🧩 Components Required
+##  Components Required
 
 | Component | Quantity | Description |
 |------------|-----------|-------------|
@@ -44,7 +44,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 ---
 
 
-## 🔍 How It Works
+##  How It Works
 
 1. **LDR senses light intensity.**  
 2. The **voltage divider** converts light intensity into an analog voltage.  
@@ -56,7 +56,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 
 
-## ⚡ Calibration
+##  Calibration
 
 1. Upload and run the code.  
 2. Observe LDR values in **bright** and **dark** conditions (via serial monitor).  
@@ -64,7 +64,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 ---
 
-## 🌟 Applications
+##  Applications
 
 - Automatic night lamps  
 - Smart home lighting systems  
@@ -73,7 +73,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Add PWM for **smooth LED brightness control**  
 - Add a **relay module** to control AC bulbs  
@@ -82,7 +82,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 ---
 
-## 📸 Example Output
+##  Example Output
 
 ```
 LDR Value: 3200 → Bright → LED OFF
@@ -95,7 +95,7 @@ LDR Value: 300  → Dark   → LED ON
 
 **Kritish Mohapatra**  
 Third Year B.Tech, Electrical Engineering  
-📡 Focused on IoT, Embedded Systems, and MicroPython Projects  
+ Focused on IoT, Embedded Systems, and MicroPython Projects  
 
 ---
 
