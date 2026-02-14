@@ -1,11 +1,11 @@
-## 💡 Dimmer LED using Potentiometer (ESP32 + MicroPython)
+##  Dimmer LED using Potentiometer (ESP32 + MicroPython)
 
 An interactive LED dimmer system built with an **ESP32**, a **potentiometer**, and **MicroPython**.  
 Control the brightness of an LED seamlessly by rotating a potentiometer, showcasing basic **PWM (Pulse Width Modulation)** control.
 
 ---
 
-### 🧠 Overview
+###  Overview
 
 This project utilizes a **potentiometer** to adjust the brightness of an **LED**.  
 The potentiometer acts as a variable resistor, forming a **voltage divider**.  
@@ -13,7 +13,7 @@ The **ESP32’s ADC (Analog to Digital Converter)** reads this analog voltage, w
 
 ---
 
-### ⚙️ Circuit Diagram
+###  Circuit Diagram
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 ---
@@ -33,7 +33,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 ---
 
-### 🧩 Components Required
+###  Components Required
 
 | Component | Quantity | Description |
 |------------|-----------|-------------|
@@ -47,7 +47,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 
 
 
-### 🔍 How It Works
+###  How It Works
 
 1. Potentiometer varies resistance.  
 2. This changes the analog voltage at the wiper arm.  
@@ -58,7 +58,7 @@ GPIO2 --- [220Ω Resistor] --- LED --- GND
 ---
 
 
-### ⚡ Calibration & Mapping
+###  Calibration & Mapping
 
 - The ESP32's **ADC** typically reads values from **0 to 4095**.  
 - The **PWM duty cycle** in MicroPython on ESP32 typically ranges from **0 to 1023**.  
@@ -72,7 +72,7 @@ pwm_duty = int(adc_value / 4095 * 1023)  **Maps to 0–1023**
 
 led_pwm.duty(pwm_duty)
 
-## 🌟 Applications
+##  Applications
 
 - Desk lamp dimmers
 - Ambient lighting control
@@ -81,7 +81,7 @@ led_pwm.duty(pwm_duty)
 - Industrial control panels
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Implement smooth transitions between brightness levels.
 - Add a second LED and potentiometer for independent control.
@@ -91,7 +91,7 @@ led_pwm.duty(pwm_duty)
 
 ---
 
-## 📸 Example Output
+##  Example Output
 
 ```
 | Potentiometer Value | PWM Duty | LED Brightness |
@@ -104,7 +104,7 @@ led_pwm.duty(pwm_duty)
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 Third Year B.Tech, Electrical Engineering  
