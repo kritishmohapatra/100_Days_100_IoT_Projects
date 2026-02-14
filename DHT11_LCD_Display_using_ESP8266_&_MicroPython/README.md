@@ -1,14 +1,14 @@
-# 🌡️ DHT11 Temperature & Humidity Display using ESP8266 + I2C LCD (MicroPython)
+#  DHT11 Temperature & Humidity Display using ESP8266 + I2C LCD (MicroPython)
 
 ---
 
-## 🔍 Overview
+##  Overview
 This project measures **temperature** and **humidity** using the **DHT11 sensor** and displays the readings on a **16x2 I2C LCD** connected to an **ESP8266** microcontroller programmed in **MicroPython**.  
 It provides smooth, real-time updates every 2 seconds without screen flicker.
 
 ---
 
-## ⚙️ Circuit Diagram
+##  Circuit Diagram
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 Below is the circuit connection layout used in this project:
 
@@ -20,11 +20,11 @@ Below is the circuit connection layout used in this project:
 | VCC | 3.3V / 5V | Power supply |
 | GND | GND | Ground connection |
 
-> 💡 **Note:** The I2C address (`0x27`) may vary depending on your LCD module. You can use an I2C scanner script to find the correct address.
+>  **Note:** The I2C address (`0x27`) may vary depending on your LCD module. You can use an I2C scanner script to find the correct address.
 
 ---
 
-## 🧩 Components Required
+##  Components Required
 | Component | Quantity | Description |
 |------------|-----------|-------------|
 | ESP8266 (NodeMCU) | 1 | Microcontroller board running MicroPython |
@@ -35,7 +35,7 @@ Below is the circuit connection layout used in this project:
 
 ---
 
-## ⚡ How It Works
+##  How It Works
 1. The **DHT11 sensor** reads real-time temperature and humidity data.  
 2. The **ESP8266** collects and processes this data using the `dht` module.  
 3. The readings are displayed on the **16x2 I2C LCD**.  
@@ -43,7 +43,7 @@ Below is the circuit connection layout used in this project:
 
 ---
 
-## 🌟 Applications
+##  Applications
 
 - Home environment monitoring  
 - IoT-based weather station  
@@ -53,7 +53,7 @@ Below is the circuit connection layout used in this project:
 - Room comfort monitoring system  
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Add °C/°F unit conversion
 - Wi-Fi connectivity for live dashboard or Blynk app
@@ -65,11 +65,11 @@ Below is the circuit connection layout used in this project:
 
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 Third Year B.Tech, Electrical Engineering  
-📡 Focused on IoT, Embedded Systems, and MicroPython Projects  
+ Focused on IoT, Embedded Systems, and MicroPython Projects  
 
 ---
 
