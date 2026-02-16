@@ -1,21 +1,21 @@
 
 
-# 🌬️ Smart Cooling System using ESP8266, DHT11 & Relay (MicroPython)
+#  Smart Cooling System using ESP8266, DHT11 & Relay (MicroPython)
 
 A simple **Smart Cooling System** that automatically turns a **fan ON/OFF** based on room temperature using **ESP8266**, **DHT11 sensor**, and an **active-LOW relay**, programmed in **MicroPython**.
 
 ---
 
-## 📌 Features
-- 🌡️ Real-time temperature & humidity monitoring
-- 🔁 Automatic fan control using temperature threshold
-- 🔌 Active-LOW relay support
-- 🧠 Simple & beginner-friendly logic
-- ⚡ Low power & cost-effective
+##  Features
+-  Real-time temperature & humidity monitoring
+-  Automatic fan control using temperature threshold
+-  Active-LOW relay support
+-  Simple & beginner-friendly logic
+-  Low power & cost-effective
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 - ESP8266 (NodeMCU)
 - DHT11 Temperature & Humidity Sensor
 - 1-Channel Relay Module (Active-LOW)
@@ -28,7 +28,7 @@ A simple **Smart Cooling System** that automatically turns a **fan ON/OFF** base
 
 
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/image.png)
 
 
@@ -46,11 +46,11 @@ A simple **Smart Cooling System** that automatically turns a **fan ON/OFF** base
 | VCC | 5V (Vin) |
 | GND | GND |
 
-⚠️ **Note:** Do NOT connect fan directly to ESP8266. Always use relay or transistor.
+ **Note:** Do NOT connect fan directly to ESP8266. Always use relay or transistor.
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 1. ESP8266 reads temperature & humidity from DHT11
 2. If **Temperature ≥ 30°C**
    - Relay turns **ON**
@@ -62,13 +62,13 @@ A simple **Smart Cooling System** that automatically turns a **fan ON/OFF** base
 
 ---
 
-## 🧠 Logic for Active-LOW Relay
+##  Logic for Active-LOW Relay
 - `0 (LOW)` → Relay ON → Fan ON
 - `1 (HIGH)` → Relay OFF → Fan OFF
 
 ---
 
-## 🧪 MicroPython Code
+##  MicroPython Code
 ```python
 import dht
 import machine
@@ -109,14 +109,14 @@ while True:
     time.sleep(2)
 ```
 ---
-## 🚀 Future Enhancements
-- 📟 OLED Display (SSD1306) for real-time temperature & fan status
-- 🌐 Web Dashboard using ESP8266 Web Server
-- 🔘 Manual ON/OFF Override Button
-- 🎚️ Fan Speed Control using PWM
-- ☁️ IoT Cloud Integration (MQTT / ThingSpeak)
+##  Future Enhancements
+-  OLED Display (SSD1306) for real-time temperature & fan status
+-  Web Dashboard using ESP8266 Web Server
+-  Manual ON/OFF Override Button
+-  Fan Speed Control using PWM
+-  IoT Cloud Integration (MQTT / ThingSpeak)
 ---
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
