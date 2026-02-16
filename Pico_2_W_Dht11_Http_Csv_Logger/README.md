@@ -1,11 +1,11 @@
 
-# Pico 2 W DHT22 HTTP CSV Data Logger
+# Pico 2 W DHT11 HTTP CSV Data Logger
 
 A simple and practical IoT project where a **Raspberry Pi Pico 2W** reads data from a **DHT11 temperature & humidity sensor** and sends it via **HTTP POST** to a **Flask server** running on a laptop. The server logs the data into a **CSV file** for analysis.
 
 ---
 
-## 🔧 Features
+##  Features
 
 * Reads **Temperature & Humidity** using DHT11
 * Uses **Wi‑Fi (Pico 2W)** for communication
@@ -16,13 +16,13 @@ A simple and practical IoT project where a **Raspberry Pi Pico 2W** reads data f
 
 ---
 
-## 🧱 Hardware Required
+##  Hardware Required
 
 * Raspberry Pi Pico W
-* DHT22 Sensor
+* DHT11 Sensor
 * Jumper wires
 
-### 🔌 DHT22 Connections
+###  DHT22 Connections
 ![Circuit Diagram](Circuit_Diagram/image.png)
 
 | DHT22 | Pico W  |
@@ -33,7 +33,7 @@ A simple and practical IoT project where a **Raspberry Pi Pico 2W** reads data f
 
 ---
 
-## 💻 Software Required
+##  Software Required
 
 * MicroPython (Pico W firmware)
 * Python 3.x (Laptop)
@@ -42,7 +42,7 @@ A simple and practical IoT project where a **Raspberry Pi Pico 2W** reads data f
 ---
 
 
-## 🚀 Flask Server Setup (Laptop)
+##  Flask Server Setup (Laptop)
 
 ### `app.py`
 
@@ -84,7 +84,7 @@ Note your **Laptop IP address** (e.g. `192.168.43.101`).
 
 ---
 
-## 📡 Pico W MicroPython Code
+##  Pico W MicroPython Code
 
 ### `main.py`
 
@@ -131,7 +131,7 @@ while True:
 
 ---
 
-## 📊 CSV Output Example
+##  CSV Output Example
 
 ```
 time,temperature,humidity
@@ -143,7 +143,7 @@ The CSV file can be opened directly in **Excel / Google Sheets**.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Pico 2 W connects to Wi‑Fi
 2. Reads DHT11 sensor values
@@ -153,7 +153,7 @@ The CSV file can be opened directly in **Excel / Google Sheets**.
 
 ---
 
-## 🛠 Troubleshooting
+##  Troubleshooting
 
 * Ensure **Pico 2 W and laptop are on the same Wi‑Fi network**
 * Use **Laptop IP**, not `127.0.0.1`
@@ -161,7 +161,7 @@ The CSV file can be opened directly in **Excel / Google Sheets**.
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Add LED / actuator status logging
 * Plot graphs from CSV
@@ -172,7 +172,7 @@ The CSV file can be opened directly in **Excel / Google Sheets**.
 
 
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
