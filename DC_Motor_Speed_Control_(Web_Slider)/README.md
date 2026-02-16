@@ -1,11 +1,11 @@
 
-# 🌐 ESP32 DC Motor Speed Control (Web Slider)
+#  ESP32 DC Motor Speed Control (Web Slider)
 
 A complete **IoT + Embedded Systems** project where a **DC motor is controlled from a web browser** using an **ESP32**, **MicroPython**, and **L298N motor driver**. Motor speed is adjusted in real time using a **slider-based web UI**.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 * ESP32 hosts a **local web server**
 * Browser-based **slider** controls motor speed
@@ -15,7 +15,7 @@ A complete **IoT + Embedded Systems** project where a **DC motor is controlled f
 
 ---
 
-## 🧰 Hardware Requirements
+##  Hardware Requirements
 
 * ESP32 Development Board
 * L298N Motor Driver Module
@@ -23,11 +23,11 @@ A complete **IoT + Embedded Systems** project where a **DC motor is controlled f
 * External 6V Power Supply (for motor)
 * Jumper Wires
 
-⚠️ **Important:** ESP32 GND and L298N GND must be common.
+ **Important:** ESP32 GND and L298N GND must be common.
 
 ---
 
-## 🔌 Pin Configuration
+##  Pin Configuration
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | L298N Pin | ESP32 GPIO | Description       |
@@ -39,14 +39,14 @@ A complete **IoT + Embedded Systems** project where a **DC motor is controlled f
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
 * ESP32 generates a PWM signal on **ENA** pin
 * PWM duty cycle (0–1023) controls motor speed
 * Web slider sends speed value via HTTP request
 * ESP32 parses request and updates PWM duty
 
-### 🔧 Kick-Start Logic (6V Fix)
+###  Kick-Start Logic (6V Fix)
 
 At low PWM values, DC motors may not start due to:
 
@@ -57,7 +57,7 @@ To solve this, a **brief full-duty kick-start** is applied before setting the re
 
 ---
 
-## 🌐 Web Interface
+##  Web Interface
 
 * Simple HTML page hosted on ESP32
 * Slider range: `0 – 1023`
@@ -66,7 +66,7 @@ To solve this, a **brief full-duty kick-start** is applied before setting the re
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Flash **MicroPython** on ESP32
 2. Upload `main.py` to ESP32
@@ -83,7 +83,7 @@ http://<ESP32_IP_ADDRESS>
 ---
 
 
-## 🧠 Learning Outcomes
+##  Learning Outcomes
 
 * PWM-based DC motor speed control
 * ESP32 web server using MicroPython
@@ -93,7 +93,7 @@ http://<ESP32_IP_ADDRESS>
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Direction control (Forward/Reverse)
 * RPM feedback using encoder
@@ -103,14 +103,8 @@ http://<ESP32_IP_ADDRESS>
 
 ---
 
-## 🏷️ Tags
-
-`ESP32` `MicroPython` `DC Motor` `PWM` `IoT` `Web Server` `Embedded Systems`
-
----
-
  
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
