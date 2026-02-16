@@ -1,5 +1,5 @@
 
-# 📡 IoT Sensor Anomaly Detection using ESP8266, ThingSpeak & MATLAB
+#  IoT Sensor Anomaly Detection using ESP8266, ThingSpeak & MATLAB
 
 This project implements **real-time IoT sensing**, **cloud data logging**, and **statistical anomaly detection** using:
 
@@ -24,7 +24,7 @@ The system uploads live sensor values to ThingSpeak, and a MATLAB script perform
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### ✔ Real-time IoT Cloud Upload  
 The ESP8266 collects:
@@ -64,7 +64,7 @@ The script prints:
 
 ---
 
-## 🔧 Hardware Required
+##  Hardware Required
 
 - ESP8266 NodeMCU  
 - DHT11 Sensor  
@@ -73,7 +73,7 @@ The script prints:
 - USB cable  
 
 ---
-## 🔌 Circuit Connections
+##  Circuit Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | Component | Pin on Sensor | ESP8266 (NodeMCU) Pin | Description |
@@ -98,7 +98,7 @@ The LDR is connected in a voltage divider configuration with a 10kΩ resistor.
 
 
 
-## 🧪 MATLAB Script Overview
+##  MATLAB Script Overview
 
 The MATLAB script performs:
 
@@ -113,7 +113,7 @@ The MATLAB script performs:
 
 ---
 
-## 🧠 Why Z-Score for Anomaly Detection?
+##  Why Z-Score for Anomaly Detection?
 
 Z-score helps detect sudden abnormal deviations by comparing how far a value lies from the statistical mean:
 
@@ -122,7 +122,7 @@ Values outside the threshold → **anomalies**
 
 ---
 
-## 📊 Output Example
+##  Output Example
 
 - LDR Anomaly Count: **6**
 - Temperature Anomaly Count: **2**
@@ -139,7 +139,7 @@ Graphs include:
 ![Matlab](Visuals/matlab_1.png)
 ---
 
-## 🛠 MicroPython Code (ESP8266)
+##  MicroPython Code (ESP8266)
 
 Includes:
 - WiFi connection  
@@ -151,7 +151,7 @@ Includes:
 
 ---
 
-## 📌 Future Enhancements
+##  Future Enhancements
 
 - Email/SMS alert when anomaly detected  
 - Live dashboard (React / Node.js)  
@@ -162,7 +162,7 @@ Includes:
 
 
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
