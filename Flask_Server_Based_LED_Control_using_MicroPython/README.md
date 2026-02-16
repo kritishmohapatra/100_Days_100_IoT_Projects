@@ -1,6 +1,6 @@
 
 
-# 🔌 Flask Server Based LED Control using MicroPython (ESP32 / Pico W)
+#  Flask Server Based LED Control using MicroPython (ESP32 / Pico W)
 
 This project demonstrates a **clean client–server IoT architecture** where a **Flask server controls an LED** connected to an **ESP32 or Raspberry Pi Pico W** running **MicroPython**.
 
@@ -8,7 +8,7 @@ The Flask server acts as the **central controller**, while the microcontroller w
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 - Flask provides a **web dashboard** with ON/OFF buttons
 - LED state is stored on the Flask server
@@ -18,7 +18,7 @@ The Flask server acts as the **central controller**, while the microcontroller w
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
     Browser (HTML + JS)
     ↓
@@ -36,7 +36,7 @@ The Flask server acts as the **central controller**, while the microcontroller w
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
     main/
     │
@@ -52,9 +52,9 @@ The Flask server acts as the **central controller**, while the microcontroller w
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
-### 🖥️ Flask Server
+###  Flask Server
 - Python 3.x
 - Flask
 
@@ -62,7 +62,7 @@ The Flask server acts as the **central controller**, while the microcontroller w
 pip install flask
 ```
 
-## 🔧 Hardware
+##  Hardware
 
  - ESP32 or Raspberry Pi Pico W
 
@@ -70,7 +70,7 @@ pip install flask
 
 - WiFi connection
 
-## 🧪 Flask Server Code (app.py)
+##  Flask Server Code (app.py)
 
 - Hosts the web dashboard
 
@@ -87,7 +87,7 @@ pip install flask
 | `/led/state` | GET    | Get LED state (JSON) |
 
 
-## 🌐 Frontend (HTML + JS)
+##  Frontend (HTML + JS)
 
 - HTML served from `templates/index.html`
 - JavaScript served from `static/script.js`
@@ -96,7 +96,7 @@ pip install flask
 
 ---
 
-## 🤖 MicroPython Client (`main.py`)
+##  MicroPython Client (`main.py`)
 
 - Connects to WiFi
 - Polls Flask server every **1 second**
@@ -109,9 +109,9 @@ pip install flask
 
 ---
 
-## ▶️ How to Run
+## ▶ How to Run
 
-### 1️⃣ Start Flask Server
+### 1️ Start Flask Server
 ```bash
 python app.py
 ```
@@ -120,7 +120,7 @@ Open in browser:
 http://<FLASK_IP>:5000
 ```
 
-### 2️⃣ Flash MicroPython Code
+### 2️ Flash MicroPython Code
 - Upload main.py to ESP32 / Pico W
 
 - Update Flask server IP in code:
@@ -129,19 +129,19 @@ SERVER = "http://<FLASK_IP>:5000/led/state"
 ```
 - Reset the board
 
-### 3️⃣ Control LED 🎉
+### 3️ Control LED 
 - Click LED ON / OFF buttons in browser
 
 - LED changes state in real time on the device
 
-## ✅ Features
+## Features
 - Clean client–server architecture
 - No page reload UI (fetch-based)
 - Real-time LED status monitoring
 - Flask best practices (templates/, static/)
 - Beginner-friendly and interview-ready design
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Relay / AC appliance control
 - Multiple LEDs or devices
 - Authentication token
@@ -150,7 +150,7 @@ SERVER = "http://<FLASK_IP>:5000/led/state"
 - Sensor + control dashboard
 
 ---
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
