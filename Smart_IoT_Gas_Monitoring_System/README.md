@@ -8,7 +8,7 @@ A complete **end-to-end IoT monitoring system** built using **ESP32, MicroPython
 ![IoT](https://img.shields.io/badge/IoT-Real--Time-orange?style=for-the-badge)
 ![AI](https://img.shields.io/badge/AI-Anomaly%20Detection-red?style=for-the-badge)
 ![ChartJS](https://img.shields.io/badge/Chart.js-Live%20Graphs-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-SAFE%20%7C%20DANGER-brightgreen?style=for-the-badge)
+
 
 
 ---
