@@ -1,16 +1,16 @@
 
-# 🌐 Raspberry Pi Pico 2 W + ThingsBoard IoT  
+#  Raspberry Pi Pico 2 W + ThingsBoard IoT  
 ### LED Control via RPC & DHT11 Telemetry (MicroPython)
 
 This project demonstrates how to connect a **Raspberry Pi Pico 2 W (RP2350)** to **ThingsBoard Cloud** using **MQTT**, enabling:
 
-- 🔘 Remote LED ON/OFF control using RPC
-- 🌡️ Temperature & 💧 Humidity monitoring using DHT11
-- 📡 Real-time telemetry updates to ThingsBoard dashboard
+-  Remote LED ON/OFF control using RPC
+-  Temperature &  Humidity monitoring using DHT11
+-  Real-time telemetry updates to ThingsBoard dashboard
 
 ---
 
-## 🚀 Features
+##  Features
 
 - WiFi connectivity using Pico 2 W
 - MQTT communication with ThingsBoard Cloud
@@ -20,7 +20,7 @@ This project demonstrates how to connect a **Raspberry Pi Pico 2 W (RP2350)** to
 
 ---
 
-## 🧰 Hardware Requirements
+##  Hardware Requirements
 
 - **Raspberry Pi Pico 2 W (RP2350)**
 - DHT11 Temperature & Humidity Sensor
@@ -30,7 +30,7 @@ This project demonstrates how to connect a **Raspberry Pi Pico 2 W (RP2350)** to
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/image1.png)
 | Component | Pico 2 W Pin |
 |---------|--------------|
@@ -39,7 +39,7 @@ This project demonstrates how to connect a **Raspberry Pi Pico 2 W (RP2350)** to
 
 ---
 
-## ☁️ ThingsBoard Configuration
+##  ThingsBoard Configuration
 
 1. Create a device in ThingsBoard
 2. Copy the **Access Token**
@@ -52,11 +52,11 @@ Password : (leave empty)
 ```
 
 
-⚠️ **Note:** ThingsBoard MQTT does **not** require a password when using access token authentication.
+ **Note:** ThingsBoard MQTT does **not** require a password when using access token authentication.
 
 ---
 
-## 📡 MQTT Topics Used
+##  MQTT Topics Used
 
 | Purpose | Topic |
 |-------|------|
@@ -66,9 +66,9 @@ Password : (leave empty)
 
 ---
 
-## 🔘 RPC Methods Supported
+##  RPC Methods Supported
 
-### 1️⃣ setState (LED Control)
+### 1️ setState (LED Control)
 
 ```json
 {
@@ -82,7 +82,7 @@ true → LED ON
 false → LED OFF
 ```
 
-### 2️⃣ getState (Dashboard Sync)
+### 2️ getState (Dashboard Sync)
 ```json
 {
   "method": "getState"
@@ -92,7 +92,7 @@ false → LED OFF
 
 Returns current LED state to ThingsBoard dashboard.
 
-## 🧪 Telemetry Data Sent
+##  Telemetry Data Sent
 
 Every 10 seconds, the following data is published:
 ```json
@@ -105,7 +105,7 @@ Every 10 seconds, the following data is published:
 ---
 ## DashBoard
 ![Circuit Diagram](Circuit_Diagram/image.png)
-## 🎯 Applications
+##  Applications
 
 - Smart Home LED Control
 
@@ -117,7 +117,7 @@ Every 10 seconds, the following data is published:
 
 - GitHub Portfolio Project
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 - MQTT communication with cloud
 
@@ -131,7 +131,7 @@ Every 10 seconds, the following data is published:
 
 - Real-world IoT architecture
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Add relay or motor control
 
@@ -144,7 +144,7 @@ Every 10 seconds, the following data is published:
 - OTA firmware update
 ---
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
