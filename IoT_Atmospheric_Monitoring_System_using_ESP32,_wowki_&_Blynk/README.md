@@ -1,8 +1,8 @@
 
-# 🌦️ IoT Atmospheric Monitoring System using ESP32, BMP180 & Blynk
+#  IoT Atmospheric Monitoring System using ESP32, BMP180 & Blynk
 
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates an **IoT-based Atmospheric Monitoring System** using the **ESP32 microcontroller** and **BMP180 pressure sensor**.  
 The system measures:
@@ -16,18 +16,18 @@ The data is transmitted in real-time to the **Blynk IoT Cloud platform** using W
 ---
 
 
-## 🔗 Online Simulation (Wokwi)
+##  Online Simulation (Wokwi)
 
 You can run and test this project online using the Wokwi simulator:
 
-👉 **Wokwi Simulation Link:**  
+ **Wokwi Simulation Link:**  
 https://wokwi.com/projects/455284507555137537
 
 > Note: Click the link and press the **Run ▶️** button to start the simulation.
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 
 - ESP32 Development Board  
 - BMP180 Pressure & Temperature Sensor  
@@ -36,7 +36,7 @@ https://wokwi.com/projects/455284507555137537
 
 ---
 
-## 💻 Software & Tools
+##  Software & Tools
 
 - MicroPython Firmware  
 - Blynk IoT Platform  
@@ -45,7 +45,7 @@ https://wokwi.com/projects/455284507555137537
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 ![Circuit Diagram](Circuit_Diagram/image1.png)
 
 | BMP180 Pin | ESP32 Pin |
@@ -57,7 +57,7 @@ https://wokwi.com/projects/455284507555137537
 
 ---
 
-## 📡 Blynk Virtual Pins
+##  Blynk Virtual Pins
 ![Circuit Diagram](Circuit_Diagram/image.png)
 | Parameter | Virtual Pin |
 |------------|--------------|
@@ -67,7 +67,7 @@ https://wokwi.com/projects/455284507555137537
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 
 1. ESP32 reads temperature, pressure, and altitude from BMP180 via I2C communication.  
 2. The measured pressure is converted from Pascals (Pa) to hectopascals (hPa).  
@@ -76,7 +76,7 @@ https://wokwi.com/projects/455284507555137537
 
 ---
 
-## 🧪 MicroPython Code
+##  MicroPython Code
 
 ```python
 '''Copyright (c) 2026 Kritish Mohapatra'''
@@ -132,14 +132,14 @@ while True:
     sleep(2)
 ```
 ---
-## 📊 Results
+##  Results
 - The system successfully displays:
 - Real-time temperature values
 - Atmospheric pressure in hPa
 - Altitude estimation in meters
 - All parameters are visualized on the Blynk mobile dashboard.
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Add OLED Display for local monitoring
 - Store data in cloud database (Firebase / Google Sheets)
@@ -147,7 +147,7 @@ while True:
 - Create a web dashboard using ESP32 Web Server
 - Implement alert notifications for abnormal conditions
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
