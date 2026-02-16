@@ -1,5 +1,5 @@
 
-# 🌱 IoT Smart Irrigation System  
+#  IoT Smart Irrigation System  
 ## (Seeed Studio XIAO ESP32-S3 + Blynk)
 
 A **Smart Irrigation System** built using **Seeed Studio XIAO ESP32-S3**,  
@@ -9,18 +9,18 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Real-time soil moisture monitoring  
-- ✅ Live soil data on Blynk dashboard  
-- ✅ Manual pump ON/OFF control  
-- ✅ WiFi-based remote access  
-- ✅ Compact & low-power XIAO ESP32-S3  
-- ❌ Automatic mode removed (manual only for stability)
+-  Real-time soil moisture monitoring  
+-  Live soil data on Blynk dashboard  
+-  Manual pump ON/OFF control  
+-  WiFi-based remote access  
+-  Compact & low-power XIAO ESP32-S3  
+-  Automatic mode removed (manual only for stability)
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 
 | Component | Quantity |
 |---------|----------|
@@ -33,7 +33,7 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
 
 ---
 
-## 🔌 Pin Configuration (XIAO ESP32-S3)
+##  Pin Configuration (XIAO ESP32-S3)
 ![Circuit Diagram](Circuit_Diagram/image1.png)
 
 | XIAO ESP32-S3 Pin | Component |
@@ -43,11 +43,11 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
 | 3V3 / 5V | Sensor / Relay |
 | GND | Common Ground |
 
-> ⚠️ Relay module used is **Active LOW**
+>  Relay module used is **Active LOW**
 
 ---
 
-## 📲 Blynk Configuration
+##  Blynk Configuration
 
 1. Create a new device in **Blynk IoT**
 2. Select **ESP32** as the device type
@@ -66,7 +66,7 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
 
 ---
 
-## 📡 Working Principle
+##  Working Principle
 
 - Soil sensor outputs analog value `(0–4095)`
 - XIAO ESP32-S3 reads ADC data
@@ -76,7 +76,7 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
 
 ---
 
-## 🧠 Software Details
+##  Software Details
 
 - Platform: **MicroPython**
 - Board: **Seeed Studio XIAO ESP32-S3**
@@ -85,7 +85,7 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
 
 ---
 
-## 🛠 How to Run the Project
+##  How to Run the Project
 
 1. Flash **MicroPython** on XIAO ESP32-S3  
 2. Upload required files:
@@ -99,27 +99,27 @@ This project enables **real-time soil moisture monitoring** and **manual pump co
    ```
 4. Power the board and reset
 
-5. Open the Blynk app and start monitoring 🌱
+5. Open the Blynk app and start monitoring 
 
-## 📊 DashBoard
+##  DashBoard
 ![Dashboard](Circuit_Diagram/image.png)
 
 
 
 ---
-## 📚 Applications
+##  Applications
 
-1. 🌾 Smart Irrigation System
+1.  Smart Irrigation System
 
-1. 🌱 Home Gardening Automation
+1.  Home Gardening Automation
 
-3. 🚜 Agriculture IoT Monitoring
+3.  Agriculture IoT Monitoring
 
-4. 🎓 College Mini & Major Projects
+4.  College Mini & Major Projects
 
-5. ⚡ ESP32-S3 & MicroPython Learning Projects
+5.  ESP32-S3 & MicroPython Learning Projects
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
