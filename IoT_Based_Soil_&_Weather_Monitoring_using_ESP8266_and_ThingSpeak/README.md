@@ -1,23 +1,23 @@
 
-# 🌱 IoT Based Soil & Weather Monitoring using ESP8266 and ThingSpeak
+#  IoT Based Soil & Weather Monitoring using ESP8266 and ThingSpeak
 
 This project demonstrates an **IoT-based Soil Moisture and Weather Monitoring System** using **ESP8266 (NodeMCU)** programmed with **MicroPython**.  
 The system reads **soil moisture**, **temperature**, and **humidity** data and uploads it to the **ThingSpeak cloud platform** for real-time visualization.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📡 WiFi-enabled data transmission (ESP8266)
-- 🌱 Soil moisture monitoring (analog sensor)
-- 🌡 Temperature & 💧 Humidity monitoring (DHT11)
-- ☁️ Live cloud dashboard using ThingSpeak
-- 📊 Real-time graphical visualization
-- 🧠 Beginner-friendly MicroPython code
+-  WiFi-enabled data transmission (ESP8266)
+-  Soil moisture monitoring (analog sensor)
+-  Temperature &  Humidity monitoring (DHT11)
+-  Live cloud dashboard using ThingSpeak
+-  Real-time graphical visualization
+-  Beginner-friendly MicroPython code
 
 ---
 
-## 🧰 Hardware Requirements
+##  Hardware Requirements
 
 - ESP8266 (NodeMCU / ESP-12)
 - Soil Moisture Sensor (Analog)
@@ -31,14 +31,14 @@ The system reads **soil moisture**, **temperature**, and **humidity** data and u
 ## 🔌 Pin Connections
 ![Circuit Diagram](Circuit_Diagram/image1.png)
 
-### 🌱 Soil Moisture Sensor
+###  Soil Moisture Sensor
 | Sensor Pin | ESP8266 |
 |----------|--------|
 | VCC | 3.3V |
 | GND | GND |
 | AO  | A0 |
 
-### 🌡 DHT11 Sensor
+###  DHT11 Sensor
 | Sensor Pin | ESP8266 |
 |-----------|--------|
 | VCC | 3.3V |
@@ -47,7 +47,7 @@ The system reads **soil moisture**, **temperature**, and **humidity** data and u
 
 ---
 
-## ☁️ ThingSpeak Setup
+##  ThingSpeak Setup
 
 1. Create an account at **https://thingspeak.com**
 2. Create a **New Channel**
@@ -60,7 +60,7 @@ The system reads **soil moisture**, **temperature**, and **humidity** data and u
 
 ---
 
-## 🧠 Software Requirements
+##  Software Requirements
 
 - MicroPython firmware for ESP8266
 - Thonny IDE / uPyCraft
@@ -72,7 +72,7 @@ The system reads **soil moisture**, **temperature**, and **humidity** data and u
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 1. ESP8266 connects to the WiFi network
 2. Reads:
@@ -82,28 +82,28 @@ The system reads **soil moisture**, **temperature**, and **humidity** data and u
 4. ThingSpeak displays data as live graphs
 
 ---
-## 📊 Output
+##  Output
 ![Dashboard](Circuit_Diagram/image.png)
 
-- 📈 Live soil moisture graph  
-- 🌡 Temperature graph  
-- 💧 Humidity graph  
+-  Live soil moisture graph  
+-  Temperature graph  
+-  Humidity graph  
 
 All data is visualized on the **ThingSpeak dashboard**.
 
 ---
 
-## 🧩 Applications
+##  Applications
 
-- 🌾 Smart Agriculture  
-- 🌱 Plant Health Monitoring  
-- 🏡 Home Gardening Automation  
-- 🎓 Academic Mini / Major Projects  
-- 📚 IoT Learning & Practice  
+-  Smart Agriculture  
+-  Plant Health Monitoring  
+-  Home Gardening Automation  
+-  Academic Mini / Major Projects  
+-  IoT Learning & Practice  
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Convert soil value to **percentage**
 - Automatic water pump control using **relay**
@@ -113,7 +113,7 @@ All data is visualized on the **ThingSpeak dashboard**.
 - Web dashboard using **Flask**
 
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
