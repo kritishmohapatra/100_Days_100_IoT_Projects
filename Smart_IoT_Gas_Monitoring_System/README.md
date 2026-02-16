@@ -1,5 +1,5 @@
 
-# 🔥 Smart IoT Gas Monitoring System
+#  Smart IoT Gas Monitoring System
 
 A complete **end-to-end IoT monitoring system** built using **ESP32, MicroPython, Flask, and AI-based logic** to detect abnormal gas levels and visualize live sensor data on a web dashboard.
 
@@ -13,7 +13,7 @@ A complete **end-to-end IoT monitoring system** built using **ESP32, MicroPython
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project collects real-time data from multiple sensors connected to an **ESP32**, sends it to a **Flask backend**, stores it in a CSV file, and displays **live graphs and status prediction** on a modern web dashboard.
 
@@ -21,7 +21,7 @@ An **AI-inspired moving average logic** is used to classify the environment as *
 
 ---
 
-## 🧠 Features
+##  Features
 
 - ✅ Real-time Gas monitoring (MQ Gas Sensor)
 - ✅ Temperature & Humidity monitoring (DHT11)
@@ -34,14 +34,14 @@ An **AI-inspired moving average logic** is used to classify the environment as *
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 🔌 Hardware
+###  Hardware
 - ESP32
 - MQ Gas Sensor
 - DHT11 Temperature & Humidity Sensor
 - Soil / Rain Sensor
-### 💻 Software
+###  Software
 - MicroPython (ESP32)
 - Python (Flask Backend)
 - HTML, CSS, JavaScript
@@ -49,7 +49,7 @@ An **AI-inspired moving average logic** is used to classify the environment as *
 
 ---
 
-## 📊 AI Logic (Simple ML Concept)
+##  AI Logic (Simple ML Concept)
 
 The system uses a **moving average–based anomaly detection** approach:
 
@@ -63,7 +63,7 @@ This approach simulates **rule-based machine learning**, suitable for beginner A
 
 ---
 
-## ▶️ How It Works
+##  How It Works
 
 1. ESP32 reads sensor values  
 2. Data is sent to Flask server using HTTP POST  
@@ -78,10 +78,10 @@ This approach simulates **rule-based machine learning**, suitable for beginner A
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-- 📷 **Dashboard UI**
-- 📷 **Circuit Diagram**
+-  **Dashboard UI**
+-  **Circuit Diagram**
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 ## 🔌 ESP32 Pin Connections
 
@@ -93,7 +93,7 @@ This approach simulates **rule-based machine learning**, suitable for beginner A
 | MQ / Soil VCC      | 3.3V / 5V | Power supply |
 | All Sensors GND    | GND       | Common ground |
 
-⚠️ **Note:**  
+ **Note:**  
 ESP32 ADC pins used: GPIO 34 & GPIO 35 (input-only, perfect for sensors).
 
 ![Circuit Diagram](Circuit_Diagram/vis_1.png)
@@ -104,7 +104,7 @@ ESP32 ADC pins used: GPIO 34 & GPIO 35 (input-only, perfect for sensors).
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 - Practical ESP32 + MicroPython usage
 - Backend development with Flask
@@ -113,14 +113,14 @@ ESP32 ADC pins used: GPIO 34 & GPIO 35 (input-only, perfect for sensors).
 - End-to-end IoT system design
 
 ---
-## 🔗 Future Improvements
+##  Future Improvements
 
-- ☁️ Cloud deployment (AWS / Firebase)
-- 📱 Mobile dashboard
-- 🤖 Advanced ML model
-- 🚨 Alert notifications (Email / WhatsApp)
+-  Cloud deployment (AWS / Firebase)
+-  Mobile dashboard
+-  Advanced ML model
+-  Alert notifications (Email / WhatsApp)
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
@@ -131,7 +131,7 @@ IoT | Embedded Systems | MicroPython | ESP32
 
 If you like this project, give it a ⭐ on GitHub and feel free to fork it!
 
-Happy hacking 🚀
+Happy hacking 
 
 
 
