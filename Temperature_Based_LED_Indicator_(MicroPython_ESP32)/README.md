@@ -1,6 +1,6 @@
 
 
-# 🌡️ Temperature Based LED Indicator using ESP32 (MicroPython)
+#  Temperature Based LED Indicator using ESP32 (MicroPython)
 
 A simple beginner-friendly IoT project built using **ESP32**, **MicroPython**, and **DHT22 sensor**.  
 The system reads temperature values and indicates the condition using **LEDs**.
@@ -9,7 +9,7 @@ This project is fully **simulated on Wokwi** and is perfect for students who are
 
 ---
 
-## 🚀 Project Features
+##  Project Features
 - Reads temperature & humidity using DHT22
 - Uses LEDs to indicate temperature range
 - Simple logic & clean code
@@ -17,12 +17,12 @@ This project is fully **simulated on Wokwi** and is perfect for students who are
 - Beginner-friendly MicroPython project
 
 ---
-## 🔗 Wokwi Simulation Link
+##  Wokwi Simulation Link
 You can view and run this project simulation on Wokwi here:
 
-👉 https://wokwi.com/projects/454692127203291137
+ https://wokwi.com/projects/454692127203291137
 
-## 🧰 Components Used
+##  Components Used
 - ESP32
 - DHT22 Temperature & Humidity Sensor
 - 3 LEDs (Red, Yellow, Green)
@@ -31,7 +31,7 @@ You can view and run this project simulation on Wokwi here:
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/image.png)
 
 
@@ -44,19 +44,19 @@ You can view and run this project simulation on Wokwi here:
 
 ---
 
-## 🧠 Working Logic
+##  Working Logic
 
 | Temperature Range | LED Status |
 |------------------|-----------|
-| Below 25°C | 🟢 Green ON |
-| 25°C – 30°C | 🟡 Yellow ON |
-| Above 30°C | 🔴 Red ON |
+| Below 25°C |  Green ON |
+| 25°C – 30°C |  Yellow ON |
+| Above 30°C |  Red ON |
 
 Temperature and humidity values are also printed on the **Serial Monitor**.
 
 ---
 
-## 🧾 MicroPython Code
+##  MicroPython Code
 
 ```python
 from machine import Pin
@@ -96,7 +96,7 @@ while True:
 ```
 ---
 
-## 🎯 Applications
+##  Applications
 - Room temperature monitoring  
 - Beginner IoT learning project  
 - ESP32 + MicroPython practice  
@@ -104,14 +104,14 @@ while True:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Add OLED display  
 - Add buzzer alert  
 - Web dashboard using ESP32  
 - MQTT / Cloud integration  
 ---
  
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
