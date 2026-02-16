@@ -13,7 +13,7 @@ This project implements a home automation system using an ESP8266 microcontrolle
 * **Wi-Fi Network:** With internet access.
 * **USB Cable:** For connecting the ESP8266 to your computer.
 
-## 🧱Hardware Setup
+## Hardware Setup
 
 1.  **LED Connections:**
     * Connect the anode (longer leg) of each LED to the following ESP8266 pins:
@@ -71,7 +71,7 @@ This project implements a home automation system using an ESP8266 microcontrolle
 * **Error Handling:** Includes `try...except` blocks to handle potential errors during value conversion.
 * **Main Loop:** Continuously runs the Blynk processes and reads sensor data.
 
-## 🧠How to Use
+## How to Use
 
 1.  **Power On:** Power on the ESP8266.
 
@@ -101,14 +101,14 @@ https://github.com/user-attachments/assets/bef6c9de-e6a4-403e-8396-ddf06b5a8266
 * Add a web interface for local control.
 * Utilize other cloud IoT platforms.
 
-## 📌Future Improvements
+## Future Improvements
 
 * Implement humidity monitoring and display.
 * Add logging and data storage.
 * Integrate with other smart home devices.
 * Improve error handling and robustness.
 
-## ❤️Author
+## Author
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
 IoT | Embedded Systems | MicroPython | ESP32  
