@@ -5,7 +5,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 
 ---
 
-## 📌 Features
+##  Features
 - Capacitive touch-based control
 - Toggle mode (one touch = ON, next touch = OFF)
 - Uses MicroPython
@@ -14,7 +14,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 - ESP8266 (NodeMCU)
 - TTP223 Touch Sensor Module
 - External LED
@@ -24,7 +24,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 
 ### TTP223 → ESP8266
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
@@ -38,12 +38,12 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 - LED Anode (+) → D4 (GPIO2)
 - LED Cathode (−) → GND (via 220Ω resistor)
 
-> ℹ️ External LED works in **active-HIGH mode**  
+> ℹ External LED works in **active-HIGH mode**  
 > (`HIGH = ON`, `LOW = OFF`)
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 - Touch sensor outputs **HIGH (1)** when touched
 - ESP8266 detects the **rising edge**
 - LED toggles its state on every valid touch
@@ -51,7 +51,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 - ESP8266 operates on **3.3V logic**
 - Avoid pulling **boot pins LOW** during startup
@@ -65,7 +65,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 
 ---
 
-## 🚀 Applications
+##  Applications
 
 - Touch-based light switch
 - Smart home control panel
@@ -75,7 +75,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 
 ---
 
-## 📂 Future Improvements
+##  Future Improvements
 
 - Replace LED with a **relay module**
 - Integrate with a **web server (Flask / HTML)**
@@ -83,7 +83,7 @@ This project demonstrates how to interface a **TTP223 capacitive touch sensor** 
 - Create a reusable **MicroPython library for TTP223**
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
