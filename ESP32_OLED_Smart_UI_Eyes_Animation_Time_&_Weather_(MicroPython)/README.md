@@ -1,41 +1,41 @@
 
-# 🧿 ESP32 OLED Smart UI – Eyes Animation, Time & Weather (MicroPython)
+# ESP32 OLED Smart UI – Eyes Animation, Time & Weather (MicroPython)
 
 An interactive **ESP32 + OLED (SSD1306)** based smart UI system built using **MicroPython**.  
 The project features animated eyes, touch-based navigation, real-time clock via NTP, and live weather data using OpenWeatherMap API.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 👀 **Animated Eyes (Idle Screen)**
+-  **Animated Eyes (Idle Screen)**
   - Blinking eyes with random eye movement
   - Runs continuously until user interaction
 
-- 👋 **Welcome Screen**
+-  **Welcome Screen**
   - Displays a custom welcome message on boot
 
-- 👆 **Dual Touch Control**
+-  **Dual Touch Control**
   - **Touch NEXT** → Navigate menu / Sync time
   - **Touch SELECT** → Select option / Go back
 
-- 🕒 **Live Date & Time (IST)**
+-  **Live Date & Time (IST)**
   - NTP-based internet time sync
   - Manual sync using touch button
   - IST timezone offset applied
 
-- ☁️ **Live Weather Info**
+-  **Live Weather Info**
   - Fetches real-time weather using **OpenWeatherMap API**
   - Displays temperature, humidity, and condition
   - City configurable
 
-- 🔁 **State-Based UI Flow**
+-  **State-Based UI Flow**
     - Welcome → Eyes (Idle) → Menu → Time / Weather → Back
 
 
 ---
 
-## 🛠 Hardware Required
+##  Hardware Required
 
 | Component | Description |
 |--------|------------|
@@ -46,7 +46,7 @@ The project features animated eyes, touch-based navigation, real-time clock via 
 
 ---
 
-## 🔌 Pin Configuration
+##  Pin Configuration
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 ### OLED (I2C)
@@ -63,7 +63,7 @@ The project features animated eyes, touch-based navigation, real-time clock via 
 
 ---
 
-## 📡 Software & Libraries
+##  Software & Libraries
 
 - **MicroPython**
 - `ssd1306`
@@ -73,7 +73,7 @@ The project features animated eyes, touch-based navigation, real-time clock via 
 
 ---
 
-## 🌐 WiFi & Weather Setup
+##  WiFi & Weather Setup
 
 Edit these values in the code:
 
@@ -87,10 +87,10 @@ CITY = "YourCity"
 ```
 
 
-👉 Get your free API key from:
+ Get your free API key from:
 https://openweathermap.org/api
 
-## ⏱ Timezone Handling
+##  Timezone Handling
 
 - Uses **UTC time** obtained from NTP servers  
 - **IST (Indian Standard Time)** offset manually applied
@@ -108,23 +108,23 @@ UTC_OFFSET = 19800  # 5 hours 30 minutes (IST)
 | Exit Screen   | Touch **SELECT**                    |
 
 
-## 🚀 Future Improvements
-1. 🌡 Local Sensor Integration
+##  Future Improvements
+1.  Local Sensor Integration
 
    Add DHT11 / DHT22 / BME280 for real temperature & humidity
 
-2. 🔋 Battery Status Indicator
+2.  Battery Status Indicator
 Display battery percentage or voltage on OLED
 
-3. 🌙 Night Mode / OLED Dimming
+3.  Night Mode / OLED Dimming
 Reduce brightness during night hours to save power
 
-4. 📦 Reusable UI Framework
+4.  Reusable UI Framework
 Convert this project into a generic MicroPython OLED UI library
 
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
