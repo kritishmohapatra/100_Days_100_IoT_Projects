@@ -1,12 +1,12 @@
 
 
-# 🌡️ ESP8266 DHT11 Live  Graph (MicroPython + Matplotlib)
+#  ESP8266 DHT11 Live  Graph (MicroPython + Matplotlib)
 
 A clean and visually appealing **real-time temperature & humidity monitoring project** using **ESP8266**, **DHT11**, and **Python Matplotlib**. Sensor data is streamed via **serial communication** and displayed as a **dark-theme  live graph** on the PC.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project demonstrates how to:
 
@@ -17,14 +17,14 @@ This project demonstrates how to:
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 
 * ESP8266 (NodeMCU recommended)
 * DHT11 Temperature & Humidity Sensor
 * USB Cable
 * Jumper Wires
 
-### 🔌 Wiring
+###  Wiring
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | DHT11 Pin | ESP8266 Pin |
@@ -33,11 +33,11 @@ This project demonstrates how to:
 | DATA      | D4 (GPIO2)  |
 | GND       | GND         |
 
-> ⚠️ Use a DHT11 module with an inbuilt pull-up resistor, or add a **10kΩ pull-up** manually.
+>  Use a DHT11 module with an inbuilt pull-up resistor, or add a **10kΩ pull-up** manually.
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 
 ### ESP8266 Side
 
@@ -57,7 +57,7 @@ pip install pyserial matplotlib
 
 ---
 
-## 📟 ESP8266 MicroPython Code (`main.py`)
+##  ESP8266 MicroPython Code (`main.py`)
 
 ```python
 import dht
@@ -82,11 +82,11 @@ while True:
 
 ```
 
-> ℹ️ `main.py` runs automatically on ESP8266 boot.
+> ℹ `main.py` runs automatically on ESP8266 boot.
 
 ---
 
-## 📊 PC Side Python Code (`live_plot.py`)
+##  PC Side Python Code (`live_plot.py`)
 
 ```python
 import serial
@@ -167,17 +167,17 @@ plt.show()
 
 ---
 
-## 🎨 Features
+##  Features
 
-* 🖤 Dark background UI
-* 🌈  temperature & humidity lines
-* ✨ Glow effect for better visibility
-* 🔵 Clearly visible live data points
-* 📈 Smooth real-time animation
+*  Dark background UI
+*   temperature & humidity lines
+*  Glow effect for better visibility
+*  Clearly visible live data points
+*  Smooth real-time animation
 
 ---
 
-## 🧠 Key Concepts Used
+##  Key Concepts Used
 
 * MicroPython sensor interfacing
 * Serial communication (ESP8266 → PC)
@@ -186,7 +186,7 @@ plt.show()
 
 ---
 
-## 📌 Applications
+##  Applications
 
 * IoT sensor monitoring
 * Embedded systems demos
@@ -195,7 +195,7 @@ plt.show()
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * CSV data logging
 * Threshold-based alerts
@@ -205,7 +205,7 @@ plt.show()
 ---
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
