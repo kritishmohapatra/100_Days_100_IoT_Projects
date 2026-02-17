@@ -1,5 +1,5 @@
 
-# 🔥XIAO ESP32 4-LED Control using CustomTkinter & MicroPython
+# XIAO ESP32 4-LED Control using CustomTkinter & MicroPython
 
 A modern **desktop GUI application** to control **4 LEDs connected to an ESP32-S3** using **serial communication**.  
 The GUI is built with **CustomTkinter** and the ESP32 runs **MicroPython**.
@@ -8,18 +8,18 @@ This project demonstrates **PC ↔ ESP32 serial control**, GPIO handling, and cl
 
 ---
 
-## 📌 Features
+##  Features
 
-- ✅ Control **4 individual LEDs**
-- ✅ Modern **CustomTkinter GUI** (Dark Mode)
-- ✅ Stable **Serial Communication**
-- ✅ Simple command protocol (`LED1:ON`, `LED2:OFF`)
-- ✅ Easily extendable (relay, buzzer, sensors)
-- ✅ Internship & Resume Ready Project
+-  Control **4 individual LEDs**
+-  Modern **CustomTkinter GUI** (Dark Mode)
+-  Stable **Serial Communication**
+-  Simple command protocol (`LED1:ON`, `LED2:OFF`)
+-  Easily extendable (relay, buzzer, sensors)
+-  Internship & Resume Ready Project
 
 ---
 
-## 🧠 Project Architecture
+##  Project Architecture
 
     PC (CustomTkinter GUI)
     |
@@ -35,7 +35,7 @@ This project demonstrates **PC ↔ ESP32 serial control**, GPIO handling, and cl
 
 ---
 
-## 🔌 Hardware Requirements
+##  Hardware Requirements
 
 - ESP32-S3 (XIAO ESP32-S3 supported)
 - 4 × LEDs
@@ -45,7 +45,7 @@ This project demonstrates **PC ↔ ESP32 serial control**, GPIO handling, and cl
 
 ---
 
-## ⚡ LED Pin Configuration
+##  LED Pin Configuration
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -56,11 +56,11 @@ This project demonstrates **PC ↔ ESP32 serial control**, GPIO handling, and cl
 | LED3 | GPIO 4 |
 | LED4 | GPIO 5 |
 
-> ⚠️ You can change GPIO pins in the code if needed.
+>  You can change GPIO pins in the code if needed.
 
 ---
 
-## 🛠️ Software Requirements
+##  Software Requirements
 
 ### ESP32 Side
 - MicroPython Firmware
@@ -72,7 +72,7 @@ This project demonstrates **PC ↔ ESP32 serial control**, GPIO handling, and cl
 ```bash
 pip install customtkinter pyserial
 ```
-## 🚀 ESP32 Code (MicroPython)
+##  ESP32 Code (MicroPython)
 
 Upload this as `main.py` to the ESP32:
 
@@ -108,7 +108,7 @@ while True:
 
     time.sleep(0.05)
 ```
-## 🖥️ PC GUI Code (CustomTkinter)
+##  PC GUI Code (CustomTkinter)
 
 Run this file on your PC:
 
@@ -116,12 +116,12 @@ Run this file on your PC:
 python gui_4led_control.py
 ```
 
-## 📌 Make sure to set the correct COM port:
+##  Make sure to set the correct COM port:
 ```
 COM_PORT = "COM14"
 ```
 
-## 🎨 GUI Preview
+##  GUI Preview
 
 - Dark Mode UI
 
@@ -129,7 +129,7 @@ COM_PORT = "COM14"
 
 - Real-time serial command sending
 
-## 📡 Serial Command Protocol
+##  Serial Command Protocol
 
 | Command    | Action        |
 | ---------- | ------------- |
@@ -138,7 +138,7 @@ COM_PORT = "COM14"
 | `LED2:ON`  | Turn LED2 ON  |
 | `LED4:OFF` | Turn LED4 OFF |
 
-# 🧪 Testing Steps
+#  Testing Steps
 
 1. Flash MicroPython on ESP32
 
@@ -148,22 +148,22 @@ COM_PORT = "COM14"
 
 4. Run GUI Python file
 
-5. Toggle LEDs from GUI 🎉
+5. Toggle LEDs from GUI 
 
-## 🧩 Future Improvements
+##  Future Improvements
 
- - 🔄 Real-time LED status feedback
+ -  Real-time LED status feedback
 
-- 🔘 ALL ON / ALL OFF button
+-  ALL ON / ALL OFF button
 
-- 💾 State saving after reboot
+-  State saving after reboot
 
-- 📱 WiFi + Web dashboard
+-  WiFi + Web dashboard
 
-- 🔔 Add relay / buzzer / sensors
+-  Add relay / buzzer / sensors
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
