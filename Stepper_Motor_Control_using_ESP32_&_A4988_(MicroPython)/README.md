@@ -1,13 +1,13 @@
 
 
-# 🚀 Stepper Motor Control using ESP32 & A4988 (MicroPython)
+# Stepper Motor Control using ESP32 & A4988 (MicroPython)
 
 This project demonstrates how to control a **NEMA 17 stepper motor** using an **A4988 motor driver** with **ESP32** programmed in **MicroPython**.  
 The motor rotates in both **clockwise** and **anticlockwise** directions with serial output for monitoring.
 
 ---
 
-## 🧰 Components Used
+##  Components Used
 
 - ESP32 Development Board  
 - A4988 Stepper Motor Driver  
@@ -17,7 +17,7 @@ The motor rotates in both **clockwise** and **anticlockwise** directions with se
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 ### ESP32 → A4988 (Logic Side)
@@ -46,11 +46,11 @@ The motor rotates in both **clockwise** and **anticlockwise** directions with se
 | VMOT | External 9–12V |
 | GND | Power GND |
 
-⚠️ **Note:** VMOT must NOT be powered from ESP32.
+ **Note:** VMOT must NOT be powered from ESP32.
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 
 - The **A4988 driver** controls the motor using two signals:
   - **STEP** → each pulse moves the motor by one step  
@@ -59,7 +59,7 @@ The motor rotates in both **clockwise** and **anticlockwise** directions with se
 - `print()` statements display motor status on the serial monitor.
 
 ---
-## 🧪 Serial Output Example
+##  Serial Output Example
 
     Stepper motor program started
     Direction: CW
@@ -67,7 +67,7 @@ The motor rotates in both **clockwise** and **anticlockwise** directions with se
     Direction: CCW
     Moved 200 steps
 
-## 🧪 Simulation
+##  Simulation
 
 The stepper motor control logic was verified using an online simulation environment.
 
@@ -78,7 +78,7 @@ https://wokwi.com/projects/454396262071203841
 
 ---
 
-## 📐 Rotation Reference
+##  Rotation Reference
 
 Assuming **200 steps = 360°**:
 
@@ -90,7 +90,7 @@ Assuming **200 steps = 360°**:
 
 ---
 
-## 📌 Applications
+##  Applications
 
 - CNC Machines  
 - Robotics  
@@ -98,7 +98,7 @@ Assuming **200 steps = 360°**:
 - Camera Sliders  
 - Industrial Automation  
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
