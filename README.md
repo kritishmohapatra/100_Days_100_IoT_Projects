@@ -32,25 +32,25 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 
 ## Technologies, Boards & Tools Used
 
-### 🔹 Hardware
+###  Hardware
 - ESP32, ESP8266 (NodeMCU)
 - Raspberry Pi Pico / Pico W / Pico 2 W
 - XIAO ESP32-S3
 - Arduino (UNO / Nano)
 
-### 🔹 Programming & Platforms
+###  Programming & Platforms
 - MicroPython
 - Python (Tkinter, CustomTkinter, Matplotlib)
 - Arduino + Python (Serial, PyFirmata)
 
-### 🔹 Sensors & Modules
+###  Sensors & Modules
 - LDR, Potentiometer, DHT11
 - PIR, IR, Ultrasonic (HC-SR04)
 - Gas Sensors (MQ-4, MQ-7, MQ-135)
 - RTC (DS3231), TM1637, OLED, LCD
 - Relay, Servo, Touch Sensor
 
-### 🔹 Concepts Covered
+###  Concepts Covered
 - ADC, PWM, GPIO
 - Wi-Fi, Web Server, WebSocket
 - Bluetooth, Blynk IoT
@@ -118,6 +118,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 53 | [Smart IoT Gas Monitoring System](Smart_IoT_Gas_Monitoring_System/README.md) | ESP32 + MQ Gas Sensor + DHT11 + Flask + Chart.js | An AI-inspired end-to-end IoT gas monitoring system that streams real-time sensor data to a Flask backend, applies moving-average based anomaly detection for SAFE/DANGER classification, logs data for analytics, and visualizes live environmental insights on an interactive web dashboard | ✅ |
 | 54 | [ESP8266 ESP-NOW LED Control](Led_ON_OFF_By_Input_from_one_ESP8266/README.md) | ESP8266 + ESP-NOW + MicroPython | A low-latency wireless LED control system using ESP-NOW protocol, where one ESP8266 acts as a transmitter and the other as a receiver, enabling real-time device control without WiFi infrastructure | ✅ |
 | 55 | [ESP8266 ESP-NOW Button to LED Control](ESP8266_LED_CONTROL_BY_PUSH_BUTTON_ESP_NOW/README.md) | ESP8266 + ESP-NOW + MicroPython | A low-latency peer-to-peer wireless communication system where a push button on one ESP8266 toggles an LED on another ESP8266 without WiFi or access point | ✅ |
+| 56 | [ESP8266 ESP-NOW 4-Channel Wireless Relay Controller](ESP_NOW_HOME_AUTOMATION/README.md) | ESP8266 + ESP-NOW + MicroPython | A wireless 4-channel relay control system using two ESP8266 boards, where push buttons on the sender toggle relays on the receiver via low-latency ESP-NOW communication without WiFi | ✅ |
 
 
 
