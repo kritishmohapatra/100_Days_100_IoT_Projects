@@ -83,7 +83,7 @@ This approach simulates **rule-based machine learning**, suitable for beginner A
 -  **Dashboard UI**
 -  **Circuit Diagram**
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
-## 🔌 ESP32 Pin Connections
+##  ESP32 Pin Connections
 
 | Sensor              | ESP32 Pin | Description |
 |---------------------|-----------|-------------|
