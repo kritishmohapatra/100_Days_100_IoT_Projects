@@ -26,7 +26,7 @@ The system uploads live sensor values to ThingSpeak, and a MATLAB script perform
 
 ##  Features
 
-### ✔ Real-time IoT Cloud Upload  
+###  Real-time IoT Cloud Upload  
 The ESP8266 collects:
 - Temperature (°C)  
 - Humidity (%)  
@@ -34,7 +34,7 @@ The ESP8266 collects:
 
 And uploads them to ThingSpeak using an API key.
 
-### ✔ Statistical Anomaly Detection  
+###  Statistical Anomaly Detection  
 The MATLAB script analyzes:
 - **LDR**
 - **Temperature**
@@ -48,13 +48,13 @@ Using **Z-score-based anomaly detection**, with thresholds:
 | Temperature   | **2.5**               |
 | Humidity      | **2.5**               |
 
-### ✔ Visualization  
+###  Visualization  
 A single figure is generated showing:
 - LDR Z-score graph  
 - Temperature Z-score graph  
 - Humidity Z-score graph  
 
-### ✔ Outlier Classification  
+###  Outlier Classification  
 The script prints:
 - Normal data points  
 - Anomalous data points  
