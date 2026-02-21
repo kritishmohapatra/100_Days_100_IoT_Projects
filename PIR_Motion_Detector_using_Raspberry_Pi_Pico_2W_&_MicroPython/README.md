@@ -5,7 +5,7 @@ The code is written using **MicroPython** and can be run on Thonny or any MicroP
 
 ---
 
-## 📌 Features
+##  Features
 - Detects human motion using PIR sensor  
 - Uses Raspberry Pi **Pico 2W built-in LED** for indication  
 - Simple and beginner-friendly MicroPython code  
@@ -14,14 +14,14 @@ The code is written using **MicroPython** and can be run on Thonny or any MicroP
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 - Raspberry Pi **Pico 2W**
 - PIR Sensor **HC-SR501**
 - Jumper wires
 - Breadboard (optional)
 
 ---
-## 🔌 Wiring Connections
+##  Wiring Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -36,7 +36,7 @@ No external LED required.
 
 ---
 
-### ⚙ PIR Sensor Notes
+###  PIR Sensor Notes
 - Left knob → Sensitivity  
 - Right knob → Time delay  
 - Warm-up time: 20–30 seconds (initial false triggers are normal)
@@ -46,7 +46,7 @@ No external LED required.
 
 
 
-## ▶️ Running the Project
+##  Running the Project
 
 1. Open **Thonny IDE**
 2. Connect your **Raspberry Pi Pico 2W**
@@ -59,15 +59,15 @@ No external LED required.
 
 ---
 
-## 📸 Output
+##  Output
 
 When you run the project, you will observe:
 
-### ✔ **Built-in LED Behavior**
+###  **Built-in LED Behavior**
 - **LED ON** → Motion Detected  
 - **LED OFF** → No Motion  
 
-### ✔ **Serial Monitor Output**
+###  **Serial Monitor Output**
 - Example output:
 ```
 PIR Motion Detector Started...
@@ -83,40 +83,40 @@ The PIR sensor may show random HIGH signals for the first **20–30 seconds** �
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 You can enhance this project with additional features:
 
-### 🔗 **1. WiFi-Based Notifications**
+###  **1. WiFi-Based Notifications**
 - Send alerts via **Telegram Bot**
 - Send **Email notification**
 - Send **HTTP request** to server or API
 - Create a live **web dashboard** on Pico 2W
 
-### 🔊 **2. Buzzer Alarm System**
+###  **2. Buzzer Alarm System**
 - Add a piezo buzzer for audible alerts
 - Trigger buzzer only on first detection or continuous detection
 
-### 🖥 **3. OLED or LCD Display**
+###  **3. OLED or LCD Display**
 - Show "Motion Detected" / "No Motion"
 - Show PIR status in real time
 
-### ☁️ **4. Cloud Logging**
+###  **4. Cloud Logging**
 - Log motion events to **Firebase Realtime Database**
 - Store timestamps in **Google Sheets** (via API)
 - Send data to **ThingSpeak** IoT platform
 
-### 🔐 **5. Home Security Mode**
+###  **5. Home Security Mode**
 - Activate/Deactivate system using a push button
 - Add password protection
 - Add a small keypad for arming/disarming
 
-### 🎦 **6. Camera Integration**
+###  **6. Camera Integration**
 - Use ESP32-CAM for capturing an image when motion is detected
 - Send the captured image to Telegram/Email
 
 ---
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
