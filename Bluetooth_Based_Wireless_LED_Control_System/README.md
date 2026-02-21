@@ -1,4 +1,4 @@
-# 🔵 Bluetooth-Based Wireless LED Control System
+#  Bluetooth-Based Wireless LED Control System
 *A simple yet powerful project to control an LED wirelessly using the HC-05 Bluetooth module and MicroPython.*
 
 ## Project Overview
