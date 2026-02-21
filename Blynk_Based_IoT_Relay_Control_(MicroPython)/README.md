@@ -1,26 +1,25 @@
 
 
 
-# 🔌 Blynk-Based IoT Relay Control using Raspberry Pi Pico 2 W (MicroPython)
+#  Blynk-Based IoT Relay Control using Raspberry Pi Pico 2 W (MicroPython)
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates a **Blynk-based IoT Relay Control System** using **Raspberry Pi Pico 2 W** and **MicroPython**.  
 The system allows users to **remotely control an electrical relay (or LED/appliance)** through the **Blynk mobile application** over Wi-Fi.
 
 This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub portfolios**, and **resume building**.
 
 ---
-
-## 🚀 Features
-- 📱 Remote ON/OFF control using Blynk mobile app  
-- 🌐 Wi-Fi based real-time IoT communication  
-- ⚡ Supports relay / LED / low-power appliances  
-- 🧠 Clean and simple MicroPython code  
-- 🔒 Secure cloud-based control using Blynk  
+##  Features
+-  Remote ON/OFF control using Blynk mobile app  
+-  Wi-Fi based real-time IoT communication  
+-  Supports relay / LED / low-power appliances  
+-  Clean and simple MicroPython code  
+-  Secure cloud-based control using Blynk  
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 - Raspberry Pi **Pico 2 W**
 - 1-Channel Relay Module (5V)
 - Jumper Wires
@@ -29,7 +28,7 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 - MicroPython firmware (for Pico 2 W)
 - Thonny IDE
 - Blynk IoT Mobile App
@@ -37,7 +36,7 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -47,11 +46,11 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 | GND | GND |
 | IN  | GP15 |
 
-> ⚠️ Most relay modules work on **Active LOW logic**
+>  Most relay modules work on **Active LOW logic**
 
 ---
 
-## 📱 Blynk App Configuration
+##  Blynk App Configuration
 1. Create a new **Template** in the Blynk app  
 2. Select:
    - Hardware: **Raspberry Pi Pico W**
@@ -63,14 +62,14 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 
 ---
 
-## ✅ Working Logic
+##  Working Logic
 - Blynk Button **ON (1)** → Relay turns **ON**
 - Blynk Button **OFF (0)** → Relay turns **OFF**
 - Uses **Active LOW** relay logic
 
 ---
 
-## 🧪 Testing Steps
+##  Testing Steps
 1. Upload the code using **Thonny IDE**
 2. Power the **Raspberry Pi Pico 2 W**
 3. Open the **Blynk mobile app**
@@ -78,7 +77,7 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 
 ---
 
-## 📸 Output
+##  Output
 - Real-time relay control from mobile phone
 - Stable Wi-Fi connection
 - Instant response from Blynk cloud
@@ -86,7 +85,7 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 
 ---
 
-## 🎯 Applications
+##  Applications
 - Smart Home Automation  
 - Remote appliance control  
 - IoT learning projects  
@@ -95,7 +94,7 @@ This project is ideal for **IoT beginners**, **college mini-projects**, **GitHub
 
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
