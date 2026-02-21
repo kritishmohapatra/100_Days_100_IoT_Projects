@@ -7,9 +7,9 @@
 This project demonstrates an **IoT-based Atmospheric Monitoring System** using the **ESP32 microcontroller** and **BMP180 pressure sensor**.  
 The system measures:
 
-- 🌡 Temperature  
-- 🌬 Atmospheric Pressure  
-- 🏔 Altitude  
+-  Temperature  
+-  Atmospheric Pressure  
+- Altitude  
 
 The data is transmitted in real-time to the **Blynk IoT Cloud platform** using Wi-Fi and MicroPython.
 
@@ -23,7 +23,7 @@ You can run and test this project online using the Wokwi simulator:
  **Wokwi Simulation Link:**  
 https://wokwi.com/projects/455284507555137537
 
-> Note: Click the link and press the **Run ▶️** button to start the simulation.
+> Note: Click the link and press the **Run ** button to start the simulation.
 
 ---
 
