@@ -93,7 +93,7 @@ This project implements a home automation system using an ESP8266 microcontrolle
 <video controls src="Circuit_Diagram/Practical.mp4" title="circuit_image_(1).png"></video>
 https://github.com/user-attachments/assets/bef6c9de-e6a4-403e-8396-ddf06b5a8266
 
-## 🛠 Customization
+##  Customization
 
 * Add more sensors and actuators.
 * Implement more complex automation logic.
