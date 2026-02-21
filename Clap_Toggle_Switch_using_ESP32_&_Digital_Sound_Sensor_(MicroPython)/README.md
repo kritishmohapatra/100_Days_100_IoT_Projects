@@ -1,6 +1,6 @@
 
 
-# 👏 Clap Toggle Switch using ESP32 & Digital Sound Sensor (MicroPython)
+#  Clap Toggle Switch using ESP32 & Digital Sound Sensor (MicroPython)
 
 A simple and practical **clap-controlled toggle switch** project using **ESP32**, a **digital sound sensor (KY-038 / LM393)**, and **MicroPython**.
 
@@ -8,7 +8,7 @@ A simple and practical **clap-controlled toggle switch** project using **ESP32**
 
 ---
 
-## 🔧 Components Required
+##  Components Required
 
 - ESP32 (ESP8266 also supported with minor pin changes)
 - Digital Sound Sensor (KY-038 / KY-037 / LM393)
@@ -19,7 +19,7 @@ A simple and practical **clap-controlled toggle switch** project using **ESP32**
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 ### Sound Sensor → ESP32
 
@@ -35,11 +35,11 @@ A simple and practical **clap-controlled toggle switch** project using **ESP32**
 |------|-------|
 | LED / Relay IN | GPIO 2 |
 
-> ⚠️ ESP32 works on **3.3V logic**. Make sure your sound sensor supports it.
+>  ESP32 works on **3.3V logic**. Make sure your sound sensor supports it.
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 
 - The sound sensor gives a **digital HIGH** when a clap is detected.
 - ESP32 continuously monitors this signal.
@@ -48,21 +48,21 @@ A simple and practical **clap-controlled toggle switch** project using **ESP32**
 
 ---
 
-## ⏱️ What is Debounce?
+##  What is Debounce?
 
 A single clap creates multiple HIGH signals due to vibration and echo.
 
 Without debounce:
-- One clap → multiple toggles ❌
+- One clap → multiple toggles 
 
 With debounce:
-- One clap → one action ✅
+- One clap → one action 
 
 This is implemented using a **minimum time gap** between two valid claps.
 
 ---
 
-## 👏 Expected Output
+##  Expected Output
 
 | Clap Count | Output |
 |-----------|--------|
@@ -73,7 +73,7 @@ This is implemented using a **minimum time gap** between two valid claps.
 
 ---
 
-## 🎛️ Sensitivity Adjustment
+##  Sensitivity Adjustment
 
 Adjust the **potentiometer** on the sound sensor:
 
@@ -86,7 +86,7 @@ Set it so that:
 
 ---
 
-## 🚀 Applications
+##  Applications
 
 - Clap-controlled light  
 - Home automation trigger  
@@ -96,7 +96,7 @@ Set it so that:
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Double clap → ON, Single clap → OFF  
 - ESP32 Web Dashboard  
@@ -105,7 +105,7 @@ Set it so that:
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
