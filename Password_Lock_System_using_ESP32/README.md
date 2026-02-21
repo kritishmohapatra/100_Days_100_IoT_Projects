@@ -1,12 +1,12 @@
 
-# 🔐 Password Lock System using ESP32 (MicroPython)
+#  Password Lock System using ESP32 (MicroPython)
 
 A simple password-based security system using **ESP32**, **4x4 Keypad**, **16x2 I2C LCD**, and **Red & Green LEDs**.  
 The system verifies a user-entered password and provides visual feedback using LEDs and LCD messages.
 
 ---
 
-## 📌 Features
+##  Features
 - Password input using 4x4 matrix keypad
 - LCD displays system status
 - Green LED for correct password
@@ -17,7 +17,7 @@ The system verifies a user-entered password and provides visual feedback using L
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 - ESP32 Development Board
 - 4x4 Matrix Keypad
 - 16x2 LCD with I2C module
@@ -27,10 +27,10 @@ The system verifies a user-entered password and provides visual feedback using L
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
-### 📟 LCD (I2C)
+###  LCD (I2C)
 | LCD Pin | ESP32 Pin |
 |------|----------|
 | VCC | 5V |
@@ -42,7 +42,7 @@ The system verifies a user-entered password and provides visual feedback using L
 
 ---
 
-### ⌨️ Keypad
+### ⌨ Keypad
 | Keypad Pin | ESP32 GPIO |
 |----------|-----------|
 | R1 | 13 |
@@ -56,7 +56,7 @@ The system verifies a user-entered password and provides visual feedback using L
 
 ---
 
-### 💡 LEDs
+###  LEDs
 | LED | ESP32 GPIO |
 |----|-----------|
 | Green LED | GPIO 5 |
@@ -64,7 +64,7 @@ The system verifies a user-entered password and provides visual feedback using L
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 1. LCD prompts user to enter password
 2. User enters password via keypad
 3. Enter key `#` submits password
@@ -78,20 +78,20 @@ The system verifies a user-entered password and provides visual feedback using L
 
 ---
 
-## 🎓 Applications
+##  Applications
 - Door lock systems
 - Digital lockers
 - Lab access control
 - Embedded systems learning project
 ---
 
-## ⭐ Future Improvements
+##  Future Improvements
 - Password change option
 - EEPROM password storage
 - Attempt limit security
 
 ---
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 Third Year B.Tech, Electrical Engineering  
