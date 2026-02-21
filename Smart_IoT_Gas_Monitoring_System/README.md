@@ -23,14 +23,14 @@ An **AI-inspired moving average logic** is used to classify the environment as *
 
 ##  Features
 
-- ✅ Real-time Gas monitoring (MQ Gas Sensor)
-- ✅ Temperature & Humidity monitoring (DHT11)
-- ✅ Soil / Rain sensor support
-- ✅ Live web dashboard (Flask + Chart.js)
-- ✅ Dynamic **SAFE / DANGER** prediction
-- ✅ AI-style anomaly detection (Moving Average)
-- ✅ CSV data logging for analytics
-- ✅ Responsive & clean UI
+-  Real-time Gas monitoring (MQ Gas Sensor)
+- Temperature & Humidity monitoring (DHT11)
+-  Soil / Rain sensor support
+-  Live web dashboard (Flask + Chart.js)
+-  Dynamic **SAFE / DANGER** prediction
+-  AI-style anomaly detection (Moving Average)
+-  CSV data logging for analytics
+-  Responsive & clean UI
 
 ---
 
