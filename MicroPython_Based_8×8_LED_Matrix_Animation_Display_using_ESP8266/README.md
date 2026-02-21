@@ -5,7 +5,7 @@ It is a part of my Day 11 learning series on ESP8266 + MicroPython.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Control an **8×8 LED matrix** using the MAX7219 driver.
 - Animation support using **multiple custom frames**.
@@ -16,7 +16,7 @@ It is a part of my Day 11 learning series on ESP8266 + MicroPython.
 
 ---
 
-## 🧰 Components Used
+##  Components Used
 
 | Component | Quantity |
 |----------|----------|
@@ -27,7 +27,7 @@ It is a part of my Day 11 learning series on ESP8266 + MicroPython.
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -43,7 +43,7 @@ It is a part of my Day 11 learning series on ESP8266 + MicroPython.
 
 ---
 
-## 📦 Library Used
+##  Library Used
 
 This project requires the following MicroPython library:
 
@@ -56,7 +56,7 @@ This project requires the following MicroPython library:
 
 Make sure this library is in the ESP8266 root directory.
 
-## 🛠 How to Run
+##  How to Run
 
 Follow these steps to run the project:
 
@@ -72,7 +72,7 @@ Follow these steps to run the project:
 
 That's it — your 8×8 LED Matrix animation is now running!
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 Here are some enhancements that can be added to this project:
 
@@ -85,7 +85,7 @@ Here are some enhancements that can be added to this project:
 - Implement **sensor-based displays** (temperature, gas level, etc.).
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects 
