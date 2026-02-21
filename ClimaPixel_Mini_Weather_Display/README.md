@@ -1,4 +1,4 @@
-# ✨ ClimaPixel — Mini Weather Display
+#  ClimaPixel — Mini Weather Display
 
 ![Language](https://img.shields.io/badge/Language-MicroPython-blue)
 ![Hardware](https://img.shields.io/badge/Hardware-ESP8266%20%2F%20ESP32-red)
@@ -6,21 +6,21 @@
 
 **ClimaPixel** is a lightweight, real-time weather station powered by MicroPython. It reads temperature and humidity data from a DHT11 sensor and visualizes it on a 0.96-inch OLED display using custom-coded binary bitmap icons.
 
-## 📸 Features
+##  Features
 
 * **Real-Time Monitoring:** continuously updates temperature and humidity.
 * **Custom Graphics:** Features hand-coded binary bitmap icons for "Temperature" and "Humidity" (no external image libraries required).
 * **Robust Error Handling:** Includes `try/except` blocks to prevent crashes if the sensor disconnects.
 * **Efficient Code:** Uses bitwise operations to draw graphics, making it compatible with "Lite" versions of the SSD1306 library.
 
-## 🛠️ Hardware Required
+##  Hardware Required
 
 1.  **Microcontroller:** ESP8266 (NodeMCU) or ESP32.
 2.  **Display:** 0.96" I2C OLED (SSD1306 driver).
 3.  **Sensor:** DHT11 Temperature & Humidity Sensor.
 4.  **Connecting Wires:** Jumper cables.
 
-## 🔌 Circuit Diagram & Pinout
+##  Circuit Diagram & Pinout
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -43,7 +43,7 @@ Based on the code configuration (`main.py`), connect your components as follows:
 
 
 
-## 🔍 How It Works
+##  How It Works
 
 ClimaPixel — Mini Weather Display is a compact weather monitoring device that uses an ESP32/ESP8266 and a DHT11 sensor to measure temperature and humidity.  
 The collected data is displayed in real-time on an SSD1306 OLED screen along with graphical icons for better visual understanding.
@@ -55,11 +55,11 @@ The collected data is displayed in real-time on an SSD1306 OLED screen along wit
 4. The OLED display continuously updates the readings on screen.
 5. Small icons (Thermometer & Humidity Drop) enhance UI clarity and aesthetics.
 
-The system runs in a loop 🔁, constantly refreshing and displaying the latest weather information.
+The system runs in a loop , constantly refreshing and displaying the latest weather information.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 This project can be upgraded into a more advanced smart weather node.  
 Some recommended additions:
@@ -80,7 +80,7 @@ With these upgrades, ClimaPixel can evolve into a fully functional IoT smart env
 
 ---
 
-## 🌍 Applications
+##  Applications
 
 Real-world use cases for ClimaPixel include:
 
@@ -97,11 +97,11 @@ This project is ideal for students, hobbyists, and IoT developers looking to bui
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 Third Year B.Tech, Electrical Engineering  
-📡 Focused on IoT, Embedded Systems, and MicroPython Projects  
+ Focused on IoT, Embedded Systems, and MicroPython Projects  
 
 ---
 
