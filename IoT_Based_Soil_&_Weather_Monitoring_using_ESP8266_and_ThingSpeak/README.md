@@ -28,7 +28,7 @@ The system reads **soil moisture**, **temperature**, and **humidity** data and u
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/image1.png)
 
 ###  Soil Moisture Sensor
