@@ -1,12 +1,12 @@
 
-# ⏰ ESP8266 NTP Digital Clock (MicroPython)
+#  ESP8266 NTP Digital Clock (MicroPython)
 
 An internet-synchronized digital clock built using **ESP8266** and a **TM1637 4-digit seven segment display**, implemented in **MicroPython**.  
 The clock fetches accurate time from an **NTP server** and displays it in **HH:MM format** with a blinking colon.
 
 ---
 
-## 🚀 Features
+##  Features
 - Real-time clock using **NTP (Network Time Protocol)**
 - No RTC module required
 - Accurate internet-synced time
@@ -17,7 +17,7 @@ The clock fetches accurate time from an **NTP server** and displays it in **HH:M
 
 ---
 
-## 🧰 Components Used
+##  Components Used
 - ESP8266 (NodeMCU)
 - TM1637 4-Digit Seven Segment Display
 - Wi-Fi Network
@@ -25,8 +25,7 @@ The clock fetches accurate time from an **NTP server** and displays it in **HH:M
 - Breadboard
 
 ---
-
-## 🔌 Pin Connections
+##  Pin Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | TM1637 Pin | ESP8266 GPIO | NodeMCU Pin |
@@ -38,7 +37,7 @@ The clock fetches accurate time from an **NTP server** and displays it in **HH:M
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 1. ESP8266 connects to the configured Wi-Fi network.
 2. Time is fetched from an NTP server in UTC.
 3. UTC time is converted to IST (UTC + 5:30).
@@ -47,7 +46,7 @@ The clock fetches accurate time from an **NTP server** and displays it in **HH:M
 
 ---
 
-## 🖥️ Software & Libraries
+##  Software & Libraries
 - **MicroPython**
 - `network` – Wi-Fi connection
 - `ntptime` – NTP time synchronization
@@ -55,7 +54,7 @@ The clock fetches accurate time from an **NTP server** and displays it in **HH:M
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 1. Flash MicroPython firmware on ESP8266.
 2. Upload `tm1637.py` and `main.py` to the board.
 3. Update Wi-Fi SSID and password in `main.py`.
@@ -64,12 +63,12 @@ The clock fetches accurate time from an **NTP server** and displays it in **HH:M
 
 ---
 
-## 🧪 Custom Segment Mapping
+##  Custom Segment Mapping
 Due to non-standard TM1637 module segment wiring, custom segment byte mapping is used to ensure correct digit rendering instead of relying on default library functions.
 
 ---
 
-## 📌 Applications
+##  Applications
 - Digital wall clock
 - IoT dashboards
 - Learning project for NTP & MicroPython
@@ -77,7 +76,7 @@ Due to non-standard TM1637 module segment wiring, custom segment byte mapping is
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 - NTP time synchronization
 - Wi-Fi handling in MicroPython
 - Seven segment display control
@@ -85,12 +84,12 @@ Due to non-standard TM1637 module segment wiring, custom segment byte mapping is
 
 ---
 
-## 📜 License
+##  License
 This project is open-source and free to use for learning and educational purposes.
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 Third Year B.Tech, Electrical Engineering  
