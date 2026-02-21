@@ -33,11 +33,11 @@ This setup is fast, low-power, and does **not require Wi-Fi or an access point**
    - `sender.py` → Sender ESP8266  
    - `receiver.py` → Receiver ESP8266  
 3. Rename files to `main.py` so they run automatically on boot.  
-4. Reset both ESP boards → Press button on sender → LED toggles on receiver. ✅
+4. Reset both ESP boards → Press button on sender → LED toggles on receiver. 
 
 ---
 
-## 📡 Setup Instructions
+##  Setup Instructions
 
 ### 1️.  Get the Receiver's MAC Address
 Run this code on the **Receiver ESP8266** to find its MAC address:
@@ -50,7 +50,7 @@ print(sta.config('mac'))
 
  ```
 
-## 🔌 Circuit Diagram & Connections
+##  Circuit Diagram & Connections
 
 ###  Sender ESP8266 (Button Input)
 | ESP8266 Pin | Component  | Note                          |
@@ -72,13 +72,13 @@ print(sta.config('mac'))
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 - **Name:** Kritish Mohapatra 
 - **GitHub:** [Kritish Mohapatra](https://github.com/kritishmohapatra)
 ---
 
-## 📜 License
+##  License
 This project is licensed under the **MIT License** – you are free to use, modify, and distribute it.  
 
 ---
