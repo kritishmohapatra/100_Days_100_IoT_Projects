@@ -4,7 +4,7 @@ A simple, elegant web-based servo controller using the Raspberry Pi Pico W (or P
 
 ---
 
-## 🔧 Features
+##  Features
 
 - Wi-Fi enabled web interface served from the Pico W  
 - Responsive HTML slider (0–180°) with smooth update  
@@ -13,7 +13,7 @@ A simple, elegant web-based servo controller using the Raspberry Pi Pico W (or P
 
 ---
 
-## 📦 Hardware Required
+##  Hardware Required
 
 - Raspberry Pi Pico W / Pico 2 W  
 - SG90 or any hobby servo  
@@ -21,11 +21,11 @@ A simple, elegant web-based servo controller using the Raspberry Pi Pico W (or P
 - Jumper wires  
 - Breadboard  
 
-> ⚠️ Use common GND between servo power and Pico.
+>  Use common GND between servo power and Pico.
 
 ---
 
-## 🔌 Wiring
+##  Wiring
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | Servo Pin | Connect To |
@@ -35,9 +35,7 @@ A simple, elegant web-based servo controller using the Raspberry Pi Pico W (or P
 | GND       | GND        |
 
 ---
-
-
-## 🚀 Setup
+##  Setup
 
 1. Flash MicroPython firmware on Pico W  
 2. Upload `main.py` and `secrets.py`  
@@ -47,7 +45,7 @@ A simple, elegant web-based servo controller using the Raspberry Pi Pico W (or P
 
 ---
 
-## 📡 How It Works
+##  How It Works
 
 - Pico starts an HTTP server on port 80  
 - Browser slider sends:  
@@ -69,7 +67,7 @@ duty = (pulse_us / 20000) * 65535
 
 ---
 
-## 🧭 Servo Calibration Tips
+##  Servo Calibration Tips
 
 - If servo doesn't reach 0° → decrease `SERVO_MIN_US`  
 - If servo doesn't reach 180° → increase `SERVO_MAX_US`  
@@ -77,7 +75,7 @@ duty = (pulse_us / 20000) * 65535
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 - **No WiFi:** Check `ssid/password`, router range  
 - **Servo jitter:** Use proper 5V supply + capacitor  
@@ -86,14 +84,13 @@ duty = (pulse_us / 20000) * 65535
 
 ---
 
-## ⚠️ Security Notes
-
+##  Security Notes
 - Use local network only (no internet exposure)  
 - Add simple PIN authentication if needed  
 
 ---
 
-## ✨ Future Improvements
+##  Future Improvements
 
 - Add presets (0°, 45°, 90°, 135°, 180° buttons)  
 - Smooth tweening animation for servo  
@@ -102,7 +99,7 @@ duty = (pulse_us / 20000) * 65535
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
