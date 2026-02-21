@@ -1,19 +1,18 @@
 
-# 👁️ Smart IR Object Detection System (ESP8266 | MicroPython)
+#  Smart IR Object Detection System (ESP8266 | MicroPython)
 
 A simple and efficient **IR-based object detection system** built using **ESP8266 (NodeMCU)** and **MicroPython**.  
 The system detects the presence of an object and triggers a **LED and buzzer alert** in real time.
 
 ---
-
-## 🚀 Project Overview
+##  Project Overview
 
 This project demonstrates how an **IR sensor** can be interfaced with ESP8266 to detect nearby objects.  
 When an object is detected, a **LED glows** and a **buzzer sounds**, making it useful for basic security and automation applications.
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 
 - ESP8266 (NodeMCU)
 - IR Sensor Module
@@ -25,7 +24,7 @@ When an object is detected, a **LED glows** and a **buzzer sounds**, making it u
 
 ---
 
-## 🔌 Pin Connections (ESP8266)
+##  Pin Connections (ESP8266)
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | Component | ESP8266 Pin | GPIO |
@@ -34,11 +33,11 @@ When an object is detected, a **LED glows** and a **buzzer sounds**, making it u
 | LED | D4 | GPIO2 |
 | Buzzer | D6 | GPIO12 |
 
-> ⚠️ Note: Power the IR sensor with **3.3V** to avoid damaging the ESP8266.
+>  Note: Power the IR sensor with **3.3V** to avoid damaging the ESP8266.
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 
 - The IR sensor continuously monitors for object presence.
 - When an object comes in front of the sensor, its output goes **LOW**.
@@ -48,14 +47,14 @@ When an object is detected, a **LED glows** and a **buzzer sounds**, making it u
 ---
 
 
-## ✅ Output
+##  Output
 
 - Object detected → **LED ON + Buzzer ON**
 - No object detected → **LED OFF + Buzzer OFF**
 
 ---
 
-## 💡 Applications
+##  Applications
 
 - Intrusion detection system  
 - Smart door alert  
@@ -65,7 +64,7 @@ When an object is detected, a **LED glows** and a **buzzer sounds**, making it u
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 - ESP8266 NodeMCU  
 - MicroPython  
@@ -73,30 +72,30 @@ When an object is detected, a **LED glows** and a **buzzer sounds**, making it u
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
-- 🔢 **Object Counter**  
+-  **Object Counter**  
   - Count number of objects passing in front of the sensor.
 
-- 🌐 **Web-Based Monitoring**  
+-  **Web-Based Monitoring**  
   - Display object detection status on a web dashboard using ESP8266 web server.
 
-- 📱 **Mobile Notification**  
+-  **Mobile Notification**  
   - Send alerts via Telegram / Blynk / MQTT when an object is detected.
 
-- 🔔 **Custom Alert System**  
+-  **Custom Alert System**  
   - Different buzzer patterns for different detection events.
 
-- 📟 **LCD / OLED Integration**  
+-  **LCD / OLED Integration**  
   - Show real-time detection status on a display.
 
-- 🤖 **Robotics Integration**  
+-  **Robotics Integration**  
   - Use the IR sensor for obstacle avoidance in robots.
 
-- ⚡ **Interrupt-Based Detection**  
+-  **Interrupt-Based Detection**  
   - Improve response time and reduce power consumption.
 
-- 🧠 **AI / ML Integration (Advanced)**  
+-  **AI / ML Integration (Advanced)**  
   - Combine with camera or additional sensors for smart decision-making.
 
 ---
@@ -104,7 +103,7 @@ When an object is detected, a **LED glows** and a **buzzer sounds**, making it u
 
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
