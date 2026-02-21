@@ -6,18 +6,18 @@ The system indicates whether an object is **near or far** using **Red and Green 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - Measures distance using an ultrasonic sensor
 - Displays distance on Serial Monitor
 - Uses LEDs for visual indication:
-  - 🟢 **Green LED** → Object is far
-  - 🔴 **Red LED** → Object is near
+  -  **Green LED** → Object is far
+  -  **Red LED** → Object is near
 - Simulated using **Wokwi Simulator**
 
 ---
 
-## 🛠️ Components Used
+##  Components Used
 
 - ESP32  
 - HC-SR04 Ultrasonic Sensor  
@@ -28,7 +28,7 @@ The system indicates whether an object is **near or far** using **Red and Green 
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
 The HC-SR04 sensor sends an ultrasonic pulse through the **TRIG** pin.  
 When the pulse hits an object, it reflects back and is received at the **ECHO** pin.  
@@ -40,7 +40,7 @@ Based on a predefined threshold:
 
 ---
 
-## 🔌 Pin Configuration (ESP32)
+##  Pin Configuration (ESP32)
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | Component | ESP32 Pin |
@@ -50,11 +50,11 @@ Based on a predefined threshold:
 | Green LED | GPIO 12 |
 | Red LED | GPIO 13 |
 
-> ⚠️ Note: Use a voltage divider for the ECHO pin when using real hardware.
+>  Note: Use a voltage divider for the ECHO pin when using real hardware.
 
 ---
 
-## 💻 Software & Tools
+##  Software & Tools
 
 - **MicroPython**
 - **HC-SR04 MicroPython Library**
@@ -63,19 +63,19 @@ Based on a predefined threshold:
 
 ---
 
-## 🧪 Simulation
+##  Simulation
 
 This project was simulated using **Wokwi**.
 
-🔗 **Live Simulation Link:**  
-👉 https://wokwi.com/projects/452745513254239233
+ **Live Simulation Link:**  
+ https://wokwi.com/projects/452745513254239233
 
 ---
 
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Open the project in **Wokwi**
 2. Upload the `main.py` and `hcsr04.py` files
@@ -84,14 +84,14 @@ This project was simulated using **Wokwi**.
 
 ---
 
-## ✅ Output
+##  Output
 
 - Serial monitor displays live distance in cm
 - LEDs indicate object proximity in real-time
 
 ---
 
-## 📈 Applications
+##  Applications
 
 - Obstacle detection system  
 - Parking assistance  
@@ -102,7 +102,7 @@ This project was simulated using **Wokwi**.
 
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
