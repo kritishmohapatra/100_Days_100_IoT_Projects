@@ -1,5 +1,5 @@
 
-# 🚨 ESP32 IR Sensor Telegram Alert (MicroPython)
+#  ESP32 IR Sensor Telegram Alert (MicroPython)
 
 This project demonstrates an **ESP32-based IR object detection system** that sends **real-time alerts to a Telegram channel** whenever an object is detected near the sensor.
 
@@ -7,7 +7,7 @@ Built using **MicroPython**, this project is simple, lightweight, and perfect fo
 
 ---
 
-## 🛠️ Components Required
+##  Components Required
 
 - ESP32 Development Board  
 - IR Sensor Module  
@@ -17,7 +17,7 @@ Built using **MicroPython**, this project is simple, lightweight, and perfect fo
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | IR Sensor Pin | ESP32 Pin |
@@ -30,7 +30,7 @@ Built using **MicroPython**, this project is simple, lightweight, and perfect fo
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
 1. ESP32 connects to the WiFi network.
 2. IR sensor continuously monitors for object detection.
@@ -40,7 +40,7 @@ Built using **MicroPython**, this project is simple, lightweight, and perfect fo
 
 ---
 
-## 📲 Telegram Setup
+##  Telegram Setup
 
 ### Step 1: Create a Telegram Bot
 - Open **@BotFather**
@@ -54,7 +54,7 @@ Built using **MicroPython**, this project is simple, lightweight, and perfect fo
 ### Step 3: Get Channel Chat ID
 You can test using browser:
 
-## 📲 Telegram Setup
+##  Telegram Setup
 
 ### Send Test Message (Browser Method)
 
@@ -62,7 +62,7 @@ Replace `<BOT_TOKEN>` and `@your_channel` with your details:
 
 https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=@your_channel&text=TEST
 
-## 🧠 Software & Libraries
+##  Software & Libraries
 
 - MicroPython (ESP32)
 - Telegram Bot API
@@ -70,14 +70,13 @@ https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=@your_channel&text=T
 
 ---
 
-## 🔐 Security Note
+##  Security Note
 
-⚠️ Do not expose your **Telegram Bot Token** in public repositories.  
+ Do not expose your **Telegram Bot Token** in public repositories.  
 Use configuration files or environment variables whenever possible.
 
 ---
-
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Convert this project into a reusable **MicroPython library**
 - Add **multiple sensor** support
@@ -87,7 +86,7 @@ Use configuration files or environment variables whenever possible.
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
