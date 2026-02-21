@@ -1,12 +1,12 @@
 
-# 💨Blynk Controlled DC Brushless Fan  
+# Blynk Controlled DC Brushless Fan  
 **Using Raspberry Pi Pico W (MicroPython)**
 
 This project demonstrates how to control a **DC Brushless Fan** using a **relay module** and the **Blynk IoT platform** with **Raspberry Pi Pico W**.
 
 ---
 
-## 🧩 Components Required
+##  Components Required
 - Raspberry Pi **Pico W / Pico 2 W**
 - **1-Channel Relay Module (5V)**
 - **DC Brushless Fan** (5V / 9V / 12V as per rating)
@@ -15,7 +15,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## 🔗 Connection Table
+##  Connection Table
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -35,7 +35,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## 📱 Blynk Configuration
+##  Blynk Configuration
 - Widget: **Button**
 - Mode: **Switch**
 - Virtual Pin: **V1**
@@ -44,7 +44,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 - Do **NOT** power the fan from Pico W 3.3V / 5V
 - Always use a **separate DC adapter** for the fan
 - Relay provides **ON/OFF control only**
@@ -52,12 +52,12 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## ✅ Working
+##  Working
 - Blynk Button ON → Relay ON → Fan ON
 - Blynk Button OFF → Relay OFF → Fan OFF
 
 ---
-## 📤 Output
+##  Output
 
 - Raspberry Pi Pico W successfully connects to the WiFi network.
 - Relay module responds instantly to commands from the **Blynk mobile application**.
@@ -66,8 +66,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 - The system provides **real-time remote control** of the fan from anywhere using the internet.
 
 ---
-
-## 📱 Output on Blynk Application
+##  Output on Blynk Application
 
 - A **Button widget** is used in **Switch mode**.
 - Button state reflects the actual fan condition:
@@ -78,7 +77,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## 🧪 Output Observation Table
+##  Output Observation Table
 ![Circuit Diagram](Circuit_Diagram/b1.png)
 
 | Blynk Button State | Relay State | Fan Status |
@@ -88,7 +87,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## 🌍 Applications
+##  Applications
 
 - Smart Home Fan Control
 - Remote Appliance Switching
@@ -98,7 +97,7 @@ This project demonstrates how to control a **DC Brushless Fan** using a **relay 
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
