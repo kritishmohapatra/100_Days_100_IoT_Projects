@@ -119,7 +119,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 54 | [ESP8266 ESP-NOW LED Control](Led_ON_OFF_By_Input_from_one_ESP8266/README.md) | ESP8266 + ESP-NOW + MicroPython | A low-latency wireless LED control system using ESP-NOW protocol, where one ESP8266 acts as a transmitter and the other as a receiver, enabling real-time device control without WiFi infrastructure | ✅ |
 | 55 | [ESP8266 ESP-NOW Button to LED Control](ESP8266_LED_CONTROL_BY_PUSH_BUTTON_ESP_NOW/README.md) | ESP8266 + ESP-NOW + MicroPython | A low-latency peer-to-peer wireless communication system where a push button on one ESP8266 toggles an LED on another ESP8266 without WiFi or access point | ✅ |
 | 56 | [ESP8266 ESP-NOW 4-Channel Wireless Relay Controller](ESP_NOW_HOME_AUTOMATION/README.md) | ESP8266 + ESP-NOW + MicroPython | A wireless 4-channel relay control system using two ESP8266 boards, where push buttons on the sender toggle relays on the receiver via low-latency ESP-NOW communication without WiFi | ✅ |
-
+| 57 | [ESP-NOW Smart Relay & Sensor System](ESP_NOW_HOME_AUTOMATION_WITH_TEMP_MONITORING_WITH_OLED/README.md) | ESP8266/ESP32 + ESP-NOW + MicroPython | A bidirectional ESP-NOW based smart relay and sensor system where a sender control panel toggles relays on a receiver and receives real-time DHT temperature and humidity data displayed on an OLED | ✅ |
 
 
 ---
