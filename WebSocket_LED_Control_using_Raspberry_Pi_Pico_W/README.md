@@ -1,13 +1,13 @@
 
 
-# 🔌 WebSocket LED Control using Raspberry Pi Pico W
+#  WebSocket LED Control using Raspberry Pi Pico W
 
 A simple yet powerful IoT project demonstrating **real-time LED control** on a **Raspberry Pi Pico W** using **WebSockets** and **MicroPython**.  
 The LED can be controlled directly from a **web browser (mobile or laptop)** over WiFi without any page refresh.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 In this project:
 - Raspberry Pi Pico W connects to a WiFi network
@@ -21,7 +21,7 @@ This project focuses on **low-level WebSocket implementation**, including **mask
 
 ---
 
-## 🧠 Key Concepts Covered
+##  Key Concepts Covered
 
 - WebSocket protocol (Handshake + Data Frames)
 - Browser ↔ Microcontroller communication
@@ -32,7 +32,7 @@ This project focuses on **low-level WebSocket implementation**, including **mask
 
 ---
 
-## 🛠 Hardware Required
+##  Hardware Required
 
 - Raspberry Pi Pico W  
 - LED  
@@ -40,14 +40,14 @@ This project focuses on **low-level WebSocket implementation**, including **mask
 - Breadboard  
 - Jumper wires  
 
-### 🔗 LED Connection
+###  LED Connection
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 - LED Anode → GPIO 15 (via 220Ω resistor)
 - LED Cathode → GND
 
 ---
 
-## 💻 Software Required
+##  Software Required
 
 - MicroPython firmware for Pico W
 - Thonny IDE
@@ -56,14 +56,14 @@ This project focuses on **low-level WebSocket implementation**, including **mask
 ---
 
 
-## ⚙️ How It Works
+##  How It Works
 
-### 1️⃣ WiFi Connection
+### 1️.. WiFi Connection
 Pico W connects to the configured WiFi network and prints its IP address on the serial monitor.
 
 ---
 
-### 2️⃣ WebSocket Handshake
+### 2️. WebSocket Handshake
 - Browser sends a WebSocket handshake request
 - Pico W extracts `Sec-WebSocket-Key`
 - Generates `Sec-WebSocket-Accept`
@@ -71,7 +71,7 @@ Pico W connects to the configured WiFi network and prints its IP address on the 
 
 ---
 
-### 3️⃣ Masked Data Handling (Important)
+### 3️. Masked Data Handling (Important)
 
 Browsers **always send masked WebSocket frames**.
 
@@ -84,7 +84,7 @@ This step avoids `UnicodeError` and ensures correct decoding.
 
 ---
 
-### 4️⃣ LED Control Logic
+### 4️. LED Control Logic
 
 | Command | Action |
 |------|------|
@@ -95,7 +95,7 @@ Pico W also sends a response back to the browser.
 
 ---
 
-## 🌐 How to Run the Project
+##  How to Run the Project
 
 ### Step 1: Upload MicroPython Code
 - Flash MicroPython on Pico W
@@ -115,7 +115,7 @@ Pico W also sends a response back to the browser.
 ```js
 ws://<PICO_IP>:80
 ```
-## 🌐 Step 4: Control the LED
+##  Step 4: Control the LED
 
 - Open the web interface in the browser
 - Click **LED ON** / **LED OFF**
@@ -123,24 +123,24 @@ ws://<PICO_IP>:80
 
 ---
 
-## 🧪 Common Issue & Solution
+##  Common Issue & Solution
 
-### ❌ Problem
+###  Problem
 UnicodeError
 
 
-### ✅ Reason
+###  Reason
 Browser sends **masked WebSocket data**.  
 Directly decoding the payload without unmasking causes a decoding failure.
 
-### ✅ Solution
+###  Solution
 Implemented **XOR-based unmasking** of WebSocket frames before decoding the payload.
 
 ---
 
-## 📸 Expected Output
+##  Expected Output
 
-### 🖥 Browser
+###  Browser
 
 
 Connected to Pico
@@ -154,7 +154,7 @@ Sent: OFF
 LED OFF
 
 ---
-### 🔌 Pico Serial Monitor
+###  Pico Serial Monitor
 
 
 Client connected
@@ -168,7 +168,7 @@ Received: OFF
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - Multiple LED control
 - JSON-based commands
@@ -178,7 +178,7 @@ Received: OFF
 
 
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 B.Tech Electrical Engineering (3rd Year)  
