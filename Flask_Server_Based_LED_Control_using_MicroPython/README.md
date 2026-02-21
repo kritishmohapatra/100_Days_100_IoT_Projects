@@ -29,10 +29,10 @@ The Flask server acts as the **central controller**, while the microcontroller w
     LED / Relay
 
 
-✔ Single server (Flask)  
-✔ ESP acts only as client  
-✔ No raw socket handling  
-✔ Clean & scalable design  
+ Single server (Flask)  
+ ESP acts only as client  
+ No raw socket handling  
+ Clean & scalable design  
 
 ---
 
