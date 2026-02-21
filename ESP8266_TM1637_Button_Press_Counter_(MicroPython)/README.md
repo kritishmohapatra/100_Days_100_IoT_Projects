@@ -1,6 +1,6 @@
 
 
-# 🧮 TM1637 Button-Press Counter (ESP8266 + MicroPython)
+# TM1637 Button-Press Counter (ESP8266 + MicroPython)
 
 ![Platform](https://img.shields.io/badge/Platform-ESP8266-blue.svg)
 ![Language](https://img.shields.io/badge/Language-MicroPython-yellow.svg)
@@ -13,7 +13,7 @@ Every time the button is pressed, the count increases and updates instantly on t
 
 ---
 
-## ⭐ Features
+##  Features
 - Increment counter using a single push button  
 - TM1637 4-digit 7-segment display  
 - No flicker, smooth updates  
@@ -23,7 +23,7 @@ Every time the button is pressed, the count increases and updates instantly on t
 
 ---
 
-## 🛠 Components Required
+##  Components Required
 | Component | Quantity |
 |----------|----------|
 | ESP32 / ESP8266 | 1 |
@@ -33,7 +33,7 @@ Every time the button is pressed, the count increases and updates instantly on t
 
 ---
 
-## 🔌 Wiring Connections
+##  Wiring Connections
 
 ### **TM1637 → ESP8266**
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
@@ -53,15 +53,15 @@ Every time the button is pressed, the count increases and updates instantly on t
 (Using internal pull-up, so no external resistor needed)
 
 ---
-## ❓ Why We Use a `show_number()` Function
+##  Why We Use a `show_number()` Function
 
 We created a separate `show_number()` function instead of writing display code directly inside the loop.  
 Here’s why:
 
-### 🔹 1. Cleaner & More Readable Code  
+###  1. Cleaner & More Readable Code  
 By writing the number-display logic inside a function, the main loop stays simple and easy to understand.
 
-### 🔹 2. Automatic 4-Digit Formatting  
+###  2. Automatic 4-Digit Formatting  
 The function always formats the value as **4 digits**:  
 - 7 → 0007  
 - 45 → 0045  
@@ -69,7 +69,7 @@ The function always formats the value as **4 digits**:
 
 Without this, the TM1637 would show random leftover digits.
 
-### 🔹 3. Converts Digits → Segment Bytes  
+###  3. Converts Digits → Segment Bytes  
 The TM1637 cannot display numbers directly.  
 It needs **segment bytes** like:  
 - 0 → `0x3F`  
@@ -78,17 +78,17 @@ It needs **segment bytes** like:
 
 The function automatically converts the number into the correct 7-segment pattern.
 
-### 🔹 4. Reusable for Any Future Features  
+###  4. Reusable for Any Future Features  
 If later you add:  
 - Reset button  
 - Auto-counter  
 - Timer  
 You can still call `show_number(count)` without rewriting display logic.
 
-### 🔹 5. Easy Debugging & Maintenance  
+###  5. Easy Debugging & Maintenance  
 If the display ever shows wrong digits, you only fix the function — not the entire code.
 
-## 🧠 How It Works
+##  How It Works
 
 - Button uses **PULL-UP**, so pressing it pulls the input **LOW**  
 - Built-in **debounce logic** prevents accidental multiple increments  
@@ -97,14 +97,14 @@ If the display ever shows wrong digits, you only fix the function — not the en
 
 ---
 
-## 🚀 Possible Upgrades
+##  Possible Upgrades
 
 - Add a **reset button**  
 - Add **auto-counting mode** using a timer  
 - Store the count value in **EEPROM / Flash**  
 - Use two buttons (**Increment + Decrement**) for full control  
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
