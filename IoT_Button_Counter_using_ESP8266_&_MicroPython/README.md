@@ -1,6 +1,6 @@
-# 🧠 IoT Button Counter using ESP8266 & MicroPython
+#  IoT Button Counter using ESP8266 & MicroPython
 
-## 📘 Project Overview
+##  Project Overview
 
 The **IoT Button Counter** is a smart embedded system that uses **physical push buttons** connected to an **ESP8266 board** to **increment**, **decrement**, and **reset** a counter value.  
 The counter is displayed **live** on a web page hosted directly by the ESP8266, and it updates dynamically every **0.5 seconds** using **AJAX (JavaScript + HTTP)** — without refreshing the page.
@@ -9,18 +9,18 @@ This project beautifully combines **hardware control** with **real-time web inte
 
 ---
 
-## 🚀 Features
+##  Features
 
-✅ Physical buttons to control counter (Increment / Decrement / Reset)  
-✅ Live counter display on webpage (auto-updates every 0.5s)  
-✅ Clean and responsive web UI  
-✅ Runs entirely on ESP8266 — no external server needed  
-✅ Non-blocking socket for smooth multitasking  
-✅ Wi-Fi-based access from any smartphone or laptop  
+ Physical buttons to control counter (Increment / Decrement / Reset)  
+ Live counter display on webpage (auto-updates every 0.5s)  
+ Clean and responsive web UI  
+ Runs entirely on ESP8266 — no external server needed  
+ Non-blocking socket for smooth multitasking  
+ Wi-Fi-based access from any smartphone or laptop  
 
 ---
 
-## ⚙️ Hardware Requirements
+##  Hardware Requirements
 
 | Component | Quantity | Description |
 |------------|-----------|-------------|
@@ -31,7 +31,7 @@ This project beautifully combines **hardware control** with **real-time web inte
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 
@@ -41,12 +41,12 @@ This project beautifully combines **hardware control** with **real-time web inte
 | Decrement Button | D6 (GPIO12) | One side to GND |
 | Reset Button | D1 (GPIO5) | One side to GND |
 
-⚠️ Each button uses the ESP8266’s **internal pull-up resistor**.  
+ Each button uses the ESP8266’s **internal pull-up resistor**.  
 When pressed → logic goes **LOW (0)**, triggering the action.
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 
 - MicroPython firmware installed on ESP8266  
 - Thonny IDE or uPyCraft for uploading code  
@@ -54,7 +54,7 @@ When pressed → logic goes **LOW (0)**, triggering the action.
 
 ---
 
-## 🧩 How It Works
+##  How It Works
 
 1. ESP8266 connects to the Wi-Fi network using SSID & password.  
 2. The device starts a lightweight **HTTP web server** on port 80.  
@@ -65,7 +65,7 @@ When pressed → logic goes **LOW (0)**, triggering the action.
 ---
 
 
-## 📘 **Explanation:**
+##  **Explanation:**
 1. **Push Buttons** — Act as user inputs for increment, decrement, and reset.  
 2. **ESP8266 Logic** — Reads button states, updates the counter, and hosts the web server.  
 3. **Local Web Server** — Serves the HTML and handles AJAX `/count` requests.  
@@ -75,26 +75,26 @@ When pressed → logic goes **LOW (0)**, triggering the action.
 ---
 
 
-## 📱 Usage Steps
+##  Usage Steps
 
 1. Flash this code to ESP8266 as **main.py**  
 2. Open Thonny’s Serial Monitor → wait for IP (e.g., `10.16.96.63`)  
 3. On your phone/laptop → connect to the same Wi-Fi  
 4. Open browser → visit `http://10.16.96.63`  
-5. Press buttons on the breadboard → see **live counter updates instantly 🎯**
+5. Press buttons on the breadboard → see **live counter updates instantly **
 
 ---
 
-## 🔧 Future Enhancements
+##  Future Enhancements
 
-🧩 Store counter in flash memory (LittleFS) to retain value after reboot  
-🌐 Add WebSocket-based instant update (no polling delay)  
-📲 Add mobile-friendly responsive UI  
-📡 Integrate MQTT or Blynk for cloud-based monitoring  
+ Store counter in flash memory (LittleFS) to retain value after reboot  
+ Add WebSocket-based instant update (no polling delay)  
+ Add mobile-friendly responsive UI  
+ Integrate MQTT or Blynk for cloud-based monitoring  
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
