@@ -4,7 +4,7 @@ This project reads analog input from a potentiometer and displays the level usin
 
 ---
 
-## 🧠 Features
+##  Features
 
 - Reads analog input from a potentiometer.  
 - Maps ADC values (0–4095) to 10 LEDs.  
@@ -13,7 +13,7 @@ This project reads analog input from a potentiometer and displays the level usin
 
 ---
 
-## 🛠️ Hardware Required
+##  Hardware Required
 ![Circuit Diagram](Circuit_Diagram/circuit_image.png)
 
 | Component | Quantity | Description |
@@ -27,7 +27,7 @@ This project reads analog input from a potentiometer and displays the level usin
 
 ---
 
-## ⚙️ Pin Configuration
+##  Pin Configuration
 
 
 | LED Number | ESP32 Pin |
@@ -51,7 +51,7 @@ This project reads analog input from a potentiometer and displays the level usin
 
 
 
-## 📊 Output Example
+##  Output Example
 
 ```
 Analog Value: 1023, Level: 3, LEDs ON: [2, 4, 5]
@@ -61,7 +61,7 @@ Analog Value: 4095, Level: 10, LEDs ON: [2, 4, 5, 12, 13, 14, 15, 16, 17, 18]
 
 ---
 
-## 🧩 Working Principle
+##  Working Principle
 
 - The **ADC** (Analog to Digital Converter) reads a voltage between 0–3.3V.  
 - This value (0–4095) is scaled into **10 levels**.  
@@ -70,7 +70,7 @@ Analog Value: 4095, Level: 10, LEDs ON: [2, 4, 5, 12, 13, 14, 15, 16, 17, 18]
 
 ---
 
-## 📷 Future Enhancements
+##  Future Enhancements
 
 - Replace LEDs with an OLED display bar visualization.  
 - Implement smoothing or filtering for stable readings.  
@@ -79,7 +79,7 @@ Analog Value: 4095, Level: 10, LEDs ON: [2, 4, 5, 12, 13, 14, 15, 16, 17, 18]
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kritish Mohapatra**  
 MicroPython | ESP32 | Embedded Systems | IoT Projects  
