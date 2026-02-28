@@ -140,6 +140,8 @@ edit S001 S001 Jyoti 3.90 CSE
 ```
 
 ### Detail View (triggered by `ok`)
+![Visual](Circuit_Diagram/vis_1.jpeg)
+
 
 ```
 +--------------------------+
