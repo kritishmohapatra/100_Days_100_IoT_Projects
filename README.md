@@ -123,6 +123,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 58 | [NTP Synchronized LED Matrix Clock](NTP_Synchronized_Digital_Clock_using_ESP32_&_MAX7219/README.md) | ESP32 + MAX7219 + MicroPython + NTP | A real-time internet-synchronized digital clock using chained MAX7219 LED matrices, showing HH:MM with NTP time sync and serial debugging output | ✅ |
 | 59 | [AQI-ESP - IoT AQI Monitoring System](AQI_ESP/README.md) | ESP32 + MicroPython + Flask + MQ135 + MQ7 + PM2.5 | A real-time air quality monitoring system using ESP32 and multiple gas sensors, calculating AQI via Flask backend and displaying live results on SSD1306 OLED with status like Good/Moderate/Unhealthy/Hazardous | ✅ |
 | 60 | [Student Management System - ESP32](ESP32_Student_Management_System/README.md) | ESP32 + MicroPython + SH1106 OLED + LittleFS + ujson | A serial command-based student record management system running on ESP32, storing up to 1000 student records in JSON format on onboard flash memory with live navigation and display on SH1106 OLED | ✅ |
+| 61 | [OTA Update - Raspberry Pi Pico 2 W](OTA_Update_Pico2W/README.md) | Raspberry Pi Pico 2 W + MicroPython + GitHub + urequests | A WiFi-based OTA (Over-the-Air) update system that automatically downloads and applies new code from GitHub on every boot without physically connecting the device to a computer | ✅ |
 ---
 ##  Key Highlights
 
