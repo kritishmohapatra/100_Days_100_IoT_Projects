@@ -44,7 +44,7 @@ https://wokwi.com/projects/456739800024792065
 | VCC         | 5V / 3.3V  |
 | GND         | GND        |
 | DIN         | D2 (MOSI)  |
-| CLK         | D3 (SCK)   |
+| CLK         | D4 (SCK)   |
 | CS          | D5         |
 
 ---
