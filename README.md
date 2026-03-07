@@ -126,6 +126,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 61 | [OTA Update - Raspberry Pi Pico 2 W](OTA_Update_Pico2W/README.md) | Raspberry Pi Pico 2 W + MicroPython + GitHub + urequests | A WiFi-based OTA (Over-the-Air) update system that automatically downloads and applies new code from GitHub on every boot without physically connecting the device to a computer | ✅ |
 | 62 | [Smart Indoor Security System](Smart_Indoor_Security_System/README.md) | ESP32 + PIR Sensor + 4x4 Keypad + MicroPython + Favoriot IoT | A motion-triggered keypad security system that detects intruders, requests a password, logs all events to the Favoriot IoT cloud, and sends email alerts on unauthorized access | ✅ |
 | 63 | [ESP32 BLE LED Control](ESP32_BLE_LED_Control/README.md) | ESP32 + MicroPython + Bluetooth Low Energy (BLE) | A BLE UART-based LED control system that allows wireless toggling of the onboard LED via smartphone commands, with connection status indication and real-time state feedback | ✅ |
+| 64 | [microclawup — AI Powered ESP32 GPIO Controller](microclawup_AI_Powered_ESP32_GPIO_Controller_(MicroPython)/README.md) | ESP32 + Groq AI + Telegram | AI-powered natural language GPIO controller using MicroPython, Groq AI and Telegram bot |✅ |
 ---
 ##  Key Highlights
 
