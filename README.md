@@ -7,6 +7,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="50"/>
 </p>
 
+
 # 100 Days 100 IoT Projects 
 
 Welcome to my **100 Days 100 IoT Projects** repository!  
@@ -26,8 +27,13 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 
 ![100 Days 100 IoT Projects Banner](IMAGES/banner.png)
 
+##  Recognition & Features 
+[![Featured on Adafruit](https://img.shields.io/badge/Featured%20on-Adafruit%20Newsletter-000000?style=for-the-badge&logo=adafruit&logoColor=white)](https://blog.adafruit.com/2026/01/27/icymi-python-on-microcontrollers-newsletter-circuitpython2026-results-pico%E2%9A%A1flash-storage-shortages-spread-and-more-circuitpython-python-micropython-thepsf-raspberry_pi/)
 
 
+[![Featured on Hackster.io](https://img.shields.io/badge/Featured%20on-Hackster.io-2E9BE6?style=for-the-badge&logo=hackster&logoColor=white)](https://www.hackster.io/kritishmohapatra06norisk/100-days-100-iot-projects-with-micropython-7e3065)
+
+[![Featured at Melbourne MicroPython Meetup](https://img.shields.io/badge/Featured%20at-Melbourne%20MicroPython%20Meetup-FF6B35?style=for-the-badge&logo=python&logoColor=white)](https://melbournemicropythonmeetup.github.io/February-2026-Meetup/)
 
 
 ## Technologies, Boards & Tools Used
