@@ -134,6 +134,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 63 | [ESP32 BLE LED Control](ESP32_BLE_LED_Control/README.md) | ESP32 + MicroPython + Bluetooth Low Energy (BLE) | A BLE UART-based LED control system that allows wireless toggling of the onboard LED via smartphone commands, with connection status indication and real-time state feedback | ✅ |
 | 64 | [microclawup — AI Powered ESP32 GPIO Controller](microclawup_AI_Powered_ESP32_GPIO_Controller_(MicroPython)/README.md) | ESP32 + Groq AI + Telegram | AI-powered natural language GPIO controller using MicroPython, Groq AI and Telegram bot |✅ |
 | 65 | [MicroPython Watch](MicroPython_Watch/README.md) | Xiao ESP32-S3 + SSD1306 OLED + OpenWeatherMap | NTP time sync + live weather on a 0.96" OLED display | ✅ |
+| 66 | [micropidash — IoT Web Dashboard](micropidash_MicroPython_IoT_Dashboard_Library/README.md) | Raspberry Pi Pico 2W / ESP32  | Non-blocking web dashboard with real-time sync, dark mode & sensor monitoring via uasyncio | ✅ |
 ---
 ##  Key Highlights
 
