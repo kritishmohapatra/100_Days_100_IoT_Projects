@@ -35,6 +35,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique â
 
 [![Featured at Melbourne MicroPython Meetup](https://img.shields.io/badge/Featured%20at-Melbourne%20MicroPython%20Meetup-FF6B35?style=for-the-badge&logo=python&logoColor=white)](https://melbournemicropythonmeetup.github.io/February-2026-Meetup/)
 
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/phodal/awesome-iot)
 
 ## Technologies, Boards & Tools Used
 
