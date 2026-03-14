@@ -136,6 +136,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 64 | [microclawup — AI Powered ESP32 GPIO Controller](microclawup_AI_Powered_ESP32_GPIO_Controller_(MicroPython)/README.md) | ESP32 + Groq AI + Telegram | AI-powered natural language GPIO controller using MicroPython, Groq AI and Telegram bot |✅ |
 | 65 | [MicroPython Watch](MicroPython_Watch/README.md) | Xiao ESP32-S3 + SSD1306 OLED + OpenWeatherMap | NTP time sync + live weather on a 0.96" OLED display | ✅ |
 | 66 | [micropidash — IoT Web Dashboard](micropidash_MicroPython_IoT_Dashboard_Library/README.md) | Raspberry Pi Pico 2W / ESP32  | Non-blocking web dashboard with real-time sync, dark mode & sensor monitoring via uasyncio | ✅ |
+| 67 | [Pulse Monitor — Heart Rate on OLED](Pulse_Monitor/README.md)| ESP32 +Pulse Sensor+ OLED| Real-time BPM display with scrolling waveform & pixel-art heart on SSD1306 OLED via ADC peak detection | ✅ |
 ---
 ##  Key Highlights
 
