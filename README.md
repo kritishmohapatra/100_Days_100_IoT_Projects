@@ -137,7 +137,8 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 65 | [MicroPython Watch](MicroPython_Watch/README.md) | Xiao ESP32-S3 + SSD1306 OLED + OpenWeatherMap | NTP time sync + live weather on a 0.96" OLED display | ✅ |
 | 66 | [micropidash — IoT Web Dashboard](micropidash_MicroPython_IoT_Dashboard_Library/README.md) | Raspberry Pi Pico 2W / ESP32  | Non-blocking web dashboard with real-time sync, dark mode & sensor monitoring via uasyncio | ✅ |
 | 67 | [Pulse Monitor — Heart Rate on OLED](Pulse_Monitor/README.md)| ESP32 +Pulse Sensor+ OLED| Real-time BPM display with scrolling waveform & pixel-art heart on SSD1306 OLED via ADC peak detection | ✅ |
----
+| 68 | [Joystick Servo Control](Joystick_Controlled_Servo/README.md) | Raspberry Pi Pico 2W + SG90 Servo + Joystick Module | Smooth 0°–180° servo control via joystick X axis using PWM & 5-sample ADC averaging in MicroPython | ✅ |
+
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
