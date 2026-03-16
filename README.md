@@ -138,6 +138,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 66 | [micropidash — IoT Web Dashboard](micropidash_MicroPython_IoT_Dashboard_Library/README.md) | Raspberry Pi Pico 2W / ESP32  | Non-blocking web dashboard with real-time sync, dark mode & sensor monitoring via uasyncio | ✅ |
 | 67 | [Pulse Monitor — Heart Rate on OLED](Pulse_Monitor/README.md)| ESP32 +Pulse Sensor+ OLED| Real-time BPM display with scrolling waveform & pixel-art heart on SSD1306 OLED via ADC peak detection | ✅ |
 | 68 | [Joystick Servo Control](Joystick_Controlled_Servo/README.md) | Raspberry Pi Pico 2W + SG90 Servo + Joystick Module | Smooth 0°–180° servo control via joystick X axis using PWM & 5-sample ADC averaging in MicroPython | ✅ |
+| 69 | [Joystick Direction Display](Joystick_Direction_Display_with_OLED/README.md) | Raspberry Pi Pico 2 + KY-023 Joystick + SSD1306 OLED | Real-time joystick direction detection displayed on OLED with raw ADC values using I2C and MicroPython | ✅ |
 
 ##  Key Highlights
 
