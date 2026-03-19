@@ -140,6 +140,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 68 | [Joystick Servo Control](Joystick_Controlled_Servo/README.md) | Raspberry Pi Pico 2W + SG90 Servo + Joystick Module | Smooth 0°–180° servo control via joystick X axis using PWM & 5-sample ADC averaging in MicroPython | ✅ |
 | 69 | [Joystick Direction Display](Joystick_Direction_Display_with_OLED/README.md) | Raspberry Pi Pico 2 + KY-023 Joystick + SSD1306 OLED | Real-time joystick direction detection displayed on OLED with raw ADC values using I2C and MicroPython | ✅ |
 | 70 | [Dual IR Entry/Exit Detector with Telegram](Dual_IR_Entry_Exit_Detector_with_Telegram_Alerts/README.md) | ESP32 + HW-201 IR Sensor x2 + Red LED + Green LED | Dual IR sensor-based entry/exit detection system — red LED stays ON while object is inside, green LED blinks on exit, with real-time Telegram alerts | ✅ |
+| 71 | [Wi-Fi Controlled 4WD Robot Car](Wi_Fi_Controlled_4WD_Robot_Car/README.md) | ESP32 + L298N Motor Driver x2 + TT DC Motor x4 + 4WD Chassis | Wi-Fi controlled 4WD robot car — ESP32 hosts a web server, browser-based interface with Forward, Backward, Left, Right, Stop controls over local Wi-Fi | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
