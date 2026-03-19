@@ -5,8 +5,7 @@ import time
 
 # Wi-Fi credentials
 SSID = "kritish"
-PASSWORD = "@Krrs2069"
-
+PASSWORD = "pass"
 # Driver 1 (Front)
 IN1 = Pin(27, Pin.OUT)
 IN2 = Pin(26, Pin.OUT)
