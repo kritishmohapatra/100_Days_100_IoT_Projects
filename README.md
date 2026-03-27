@@ -142,6 +142,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 70 | [Dual IR Entry/Exit Detector with Telegram](Dual_IR_Entry_Exit_Detector_with_Telegram_Alerts/README.md) | ESP32 + HW-201 IR Sensor x2 + Red LED + Green LED | Dual IR sensor-based entry/exit detection system — red LED stays ON while object is inside, green LED blinks on exit, with real-time Telegram alerts | ✅ |
 | 71 | [Wi-Fi Controlled 4WD Robot Car](Wi_Fi_Controlled_4WD_Robot_Car/README.md) | ESP32 + L298N Motor Driver x2 + TT DC Motor x4 + 4WD Chassis | Wi-Fi controlled 4WD robot car — ESP32 hosts a web server, browser-based interface with Forward, Backward, Left, Right, Stop controls over local Wi-Fi | ✅ |
 | 72 | [RFID Basic Access Control System](RFID_Basic_Access_Control_System/README.md) | ESP8266 NodeMCU + MFRC522 + Green LED + Red LED | RFID based access control — ESP8266 reads MIFARE card UID over SPI, checks against authorised list, green LED for granted and red LED blinks for denied | ✅ |
+| 73 | [RFID Attendance Logger](RFID_Attendance_Logger/README.md) | ESP32 + MFRC522 + Google Sheets | RFID based attendance system — scans student cards, logs name, IN/OUT status and NTP timestamp to Google Sheets via Apps Script webhook | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
