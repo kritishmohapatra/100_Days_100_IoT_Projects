@@ -144,6 +144,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 72 | [RFID Basic Access Control System](RFID_Basic_Access_Control_System/README.md) | ESP8266 NodeMCU + MFRC522 + Green LED + Red LED | RFID based access control — ESP8266 reads MIFARE card UID over SPI, checks against authorised list, green LED for granted and red LED blinks for denied | ✅ |
 | 73 | [RFID Attendance Logger](RFID_Attendance_Logger/README.md) | ESP32 + MFRC522 + Google Sheets | RFID based attendance system — scans student cards, logs name, IN/OUT status and NTP timestamp to Google Sheets via Apps Script webhook | ✅ |
 | 74 | [RFID Relay Control System](RFID_Relay_Control_System/README.md) | Raspberry Pi Pico 2 + MFRC522 + 1 Channel Relay + 5V Brushless Fan | RFID based relay control — authorized card tap toggles 5V brushless fan ON or OFF via active low relay module | ✅ |
+| 75 | [ESP-NOW RFID Display](ESP_NOW_RFID_Display/README.md) | ESP8266 x2 + MFRC522 + SSD1306 OLED | ESP-NOW based RFID system — one ESP8266 scans card and sends UID wirelessly, second ESP8266 receives and displays UID on OLED | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
