@@ -129,6 +129,5 @@ IoT | Embedded Systems | MicroPython | ESP32
 
 If you like this project, give it a ⭐ on GitHub and feel free to fork it!
 
-Part of my [100 Days of IoT Challenge](https://github.com/yourusername/100-days-of-iot) 
 
 Happy hacking 🚀
