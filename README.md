@@ -147,7 +147,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 75 | [ESP-NOW RFID Display](ESP_NOW_RFID_Display/README.md) | ESP8266 x2 + MFRC522 + SSD1306 OLED | ESP-NOW based RFID system — one ESP8266 scans card and sends UID wirelessly, second ESP8266 receives and displays UID on OLED | ✅ |
 | 76 | [Bidirectional_ESP_NOW_Communication_  with_Dual_Sensor_Nodes](Bidirectional_ESP_NOW_Communication_with_Dual_Sensor_Nodes/README.md) | ESP8266 x2 + DHT11 x2 + SSD1306 + SH1106 | Two ESP8266 nodes simultaneously send and receive DHT11 sensor data over ESP-NOW, each displaying local and remote readings on OLED | ✅ |
 | 77 | [Battery_Monitor_with_Blynk_IoT](Battery_Monitor_with_Blynk_IoT/README.md) | ESP8266 + TP4056 + 18650 + 2x10kΩ | Real-time Li-ion battery voltage and percentage monitoring using voltage divider, lookup table calibration, pushed live to Blynk IoT dashboard | ✅ |
-| 78 | [IoT-Based DSM Smart Metering Prototype](IoT_Based_DSM_Smart_Metering_Prototype/README.md) | ESP32 + ZMPT101B + ACS712 + Blynk IoT + MATLAB | Real-time AC voltage and current monitoring with power calculation, demand-side management relay control, and live energy dashboard on Blynk IoT with MATLAB-based data analysis | ✅ |
+| 78 | [IoT-Based DSM Smart Metering Prototype](IoT_Based_DSM_Smart_Metering/README.md) | ESP32 + ZMPT101B + ACS712 + Blynk IoT + MATLAB | Real-time AC voltage and current monitoring with power calculation, demand-side management relay control, and live energy dashboard on Blynk IoT with MATLAB-based data analysis | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
