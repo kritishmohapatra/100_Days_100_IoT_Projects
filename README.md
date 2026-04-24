@@ -149,6 +149,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 77 | [Battery_Monitor_with_Blynk_IoT](Battery_Monitor_with_Blynk_IoT/README.md) | ESP8266 + TP4056 + 18650 + 2x10kΩ | Real-time Li-ion battery voltage and percentage monitoring using voltage divider, lookup table calibration, pushed live to Blynk IoT dashboard | ✅ |
 | 78 | [IoT-Based DSM Smart Metering Prototype](IoT_Based_DSM_Smart_Metering/README.md) | ESP32 + ZMPT101B + ACS712 + Blynk IoT + MATLAB | Real-time AC voltage and current monitoring with power calculation, demand-side management relay control, and live energy dashboard on Blynk IoT with MATLAB-based data analysis | ✅ |
 | 79 | [GC9A01 Round Display Smartwatch](GC9A01_Round_Display_Smartwatch/README.md) | ESP32 + Xiao ESP32-S3 + GC9A01 + OpenWeatherMap + NTP | Robot eyes boot animation with blink effect, typing animation, NTP-synced real-time clock, live weather via OpenWeatherMap API, and flicker-free display rendering on 1.28" round TFT | ✅ |
+| 80 | [NeoPixel 8-Ring Web Controller](Pico_2_W_NeoPixel_Web_Controller/README.md) | Pico 2W + WS2812B NeoPixel + MicroPython | Browser-based IoT controller with rainbow cycle, breathe effect, solid color, real-time brightness and color control via non-blocking HTTP server on Pico 2W | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
