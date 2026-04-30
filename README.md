@@ -15,6 +15,8 @@ This repo showcases my journey of learning and implementing **IoT & Embedded Sys
 
 Each project is designed to teach a specific concept, sensor, or IoT technique — from basic analog/digital readings to web-based dashboards.
 
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/kritish)
 ---
 ![MicroPython](https://img.shields.io/badge/MicroPython-000000?style=for-the-badge&logo=micropython&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
