@@ -155,6 +155,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 81 | [Finger Gesture LED Control](Finger_Gesture_Controlled_LEDs/README.md) | Xiao ESP32-S3 + 5 LEDs + OpenCV + MicroPython | Real-time finger count detection via webcam controls 5 LEDs over USB Serial — 0 to 5 fingers = 0 to 5 LEDs ON | ✅ |
 | 82 | [Flame Sensor Servo Alert](Flame_Sensor_Servo_Alert_System/README.md) | ESP32 + Flame Sensor (AO) + SG90 Servo + MicroPython | Analog flame detection via ADC triggers servo sweep from 0° to 180° as alert — resets when flame is gone | ✅ |
 | 83 | [Adafruit IO MQTT LED Control](Adafruit_IO_MQTT_LED_Control/README.md) | Pico 2W + MicroPython + Adafruit IO MQTT | Subscribes to Adafruit IO `led-control` feed over MQTT — sends ON/OFF commands from dashboard to toggle onboard LED in real time | ✅ |
+| 84 | [PicoDesk](PicoDesk/README.md) | Pico 2W + MicroPython + SSD1306 + OpenWeatherMap | Dual OLED desktop companion station  live clock, NTP time sync, weather, animated eyes, heart rain & mobile todo list via built-in web server | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**

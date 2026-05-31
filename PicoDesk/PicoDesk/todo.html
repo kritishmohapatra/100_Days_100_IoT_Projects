@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>COMPANION STN</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0f0a;color:#00ff41;font-family:monospace;padding:10px;font-size:14px}
+h1{text-align:center;border:1px solid #00ff41;padding:8px;letter-spacing:3px;margin-bottom:10px;text-shadow:0 0 8px #00ff41}
+.btns{display:flex;gap:8px;margin-bottom:10px}
+.btn{flex:1;padding:10px;background:transparent;border:1px solid #00aa2a;color:#00aa2a;font-family:monospace;font-size:13px;cursor:pointer;letter-spacing:1px}
+.btn.on{border-color:#00ff41;color:#00ff41;background:rgba(0,255,65,0.1)}
+.box{border:1px solid #00ff4133;margin-bottom:10px}
+.box-title{padding:5px 10px;border-bottom:1px solid #00ff4133;font-size:11px;color:#00aa2a;letter-spacing:2px}
+.row{display:flex;gap:6px;padding:8px}
+input{flex:1;background:transparent;border:none;border-bottom:1px solid #00aa2a;color:#00ff41;font-family:monospace;font-size:14px;outline:none;padding:2px}
+.add{background:transparent;border:1px solid #00ff41;color:#00ff41;font-family:monospace;padding:4px 10px;cursor:pointer}
+.item{display:flex;align-items:center;padding:7px 10px;border-bottom:1px solid #00ff410f;gap:8px;cursor:pointer}
+.item:last-child{border:none}
+.chk{color:#00aa2a;flex-shrink:0}
+.item.done .chk{color:#00ff41}
+.txt{flex:1}
+.item.done .txt{color:#00aa2a;text-decoration:line-through}
+.del{background:none;border:none;color:#ff444444;font-size:15px;cursor:pointer;padding:0 4px}
+.empty{padding:20px;text-align:center;color:#00aa2a}
+.status{font-size:11px;color:#00aa2a;text-align:center;letter-spacing:1px}
+</style></head><body>
+<h1>COMPANION STN_</h1>
+<div class="btns">
+<button class="btn" id="bA" onclick="setMode('eyes')">[ANIMATION]</button>
+<button class="btn" id="bT" onclick="setMode('todo')">[TODO LIST]</button>
+</div>
+<div class="box">
+<div class="box-title">&gt; TASK MANAGER</div>
+<div class="row">
+<span style="color:#00ff41">&gt;</span>
+<input id="inp" placeholder="add task..." maxlength="20" autocomplete="off" spellcheck="false">
+<button class="add" onclick="add()">ADD</button>
+</div>
+<div id="list"><div class="empty">// NO TASKS</div></div>
+</div>
+<div class="status" id="st">CONNECTING...</div>
+<script>
+let todos=[],mode='eyes';
+async function load(){try{let r=await fetch('/api/todos');todos=await r.json();render();let m=await fetch('/api/mode');let d=await m.json();mode=d.mode;updateBtns();document.getElementById('st').textContent='SYS:OK | '+todos.length+' TASKS'}catch(e){document.getElementById('st').textContent='SYS:ERR'}}
+async function setMode(m){try{await fetch('/api/mode?m='+m,{method:'POST'});mode=m;updateBtns()}catch(e){}}
+function updateBtns(){document.getElementById('bA').className='btn'+(mode=='eyes'?' on':'');document.getElementById('bT').className='btn'+(mode=='todo'?' on':'')}
+async function add(){let i=document.getElementById('inp');let t=i.value.trim();if(!t)return;i.value='';try{let r=await fetch('/api/add?text='+encodeURIComponent(t),{method:'POST'});todos=await r.json();render()}catch(e){}}
+async function tog(i){try{let r=await fetch('/api/toggle?i='+i,{method:'POST'});todos=await r.json();render()}catch(e){}}
+async function del(i){try{let r=await fetch('/api/delete?i='+i,{method:'POST'});todos=await r.json();render()}catch(e){}}
+function render(){let l=document.getElementById('list');if(!todos.length){l.innerHTML='<div class="empty">// NO TASKS</div>';return}l.innerHTML=todos.map((t,i)=>`<div class="item${t.done?' done':''}" onclick="tog(${i})"><span class="chk">${t.done?'[X]':'[ ]'}</span><span class="txt">${t.text}</span><button class="del" onclick="event.stopPropagation();del(${i})">x</button></div>`).join('')}
+document.getElementById('inp').addEventListener('keydown',e=>{if(e.key==='Enter')add()});
+load();setInterval(load,5000);
+</script></body></html>
