@@ -156,6 +156,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 82 | [Flame Sensor Servo Alert](Flame_Sensor_Servo_Alert_System/README.md) | ESP32 + Flame Sensor (AO) + SG90 Servo + MicroPython | Analog flame detection via ADC triggers servo sweep from 0° to 180° as alert — resets when flame is gone | ✅ |
 | 83 | [Adafruit IO MQTT LED Control](Adafruit_IO_MQTT_LED_Control/README.md) | Pico 2W + MicroPython + Adafruit IO MQTT | Subscribes to Adafruit IO `led-control` feed over MQTT — sends ON/OFF commands from dashboard to toggle onboard LED in real time | ✅ |
 | 84 | [PicoDesk](PicoDesk/README.md) | Pico 2W + MicroPython + SSD1306 + OpenWeatherMap | Dual OLED desktop companion station  live clock, NTP time sync, weather, animated eyes, heart rain & mobile todo list via built-in web server | ✅ |
+| 85 | [Virtual LED Control via Node-RED Dashboard & MQTT](Virtual_LED_Control_via_Node_RED_Dashboard_&_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto + Docker | Virtual LED control via Node-RED dashboard & MQTT — onboard LED toggle with virtual ON/OFF button over MQTT broker | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
