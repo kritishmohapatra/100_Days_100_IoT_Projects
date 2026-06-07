@@ -84,7 +84,7 @@ Node-RED Dashboard Switch
 
 ##  Dependencies
 
-- [`umqttsimple`](https://github.com/RangerDigital/umqttsimple) — lightweight MQTT client for MicroPython
+- [`umqttsimple`](https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.simple) — lightweight MQTT client for MicroPython
 
 ---
 

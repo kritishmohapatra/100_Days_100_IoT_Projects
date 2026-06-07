@@ -32,7 +32,7 @@ This project reads analog joystick data (X-axis, Y-axis, and button state) from 
 ##  Software & Dependencies
 
 - **MicroPython** on Raspberry Pi Pico 2W
-- [`umqttsimple`](https://github.com/fizista/micropython-umqtt.simple) — MQTT client library for MicroPython
+- [`umqttsimple`](https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.simple) — MQTT client library for MicroPython
 - **Mosquitto** MQTT Broker (running on Docker/VirtualBox/Ubuntu or local machine)
 - **Node-RED** for flow-based dashboard
 
