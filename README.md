@@ -158,6 +158,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 84 | [PicoDesk](PicoDesk/README.md) | Pico 2W + MicroPython + SSD1306 + OpenWeatherMap | Dual OLED desktop companion station  live clock, NTP time sync, weather, animated eyes, heart rain & mobile todo list via built-in web server | ✅ |
 | 85 | [Virtual LED Control via Node-RED Dashboard & MQTT](Virtual_LED_Control_via_Node_RED_Dashboard_&_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto + Docker | Virtual LED control via Node-RED dashboard & MQTT — onboard LED toggle with virtual ON/OFF button over MQTT broker | ✅ |
 | 86 | [Joystick MQTT Controller with Node-RED Dashboard](Joystick_MQTT_Controller_with_Node_RED_Dashboard/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto + Docker | Analog joystick X/Y and button state published as JSON over MQTT — decomposed and visualized on Node-RED dashboard widgets | ✅ |
+| 87 | [Relay Control via Node-RED & MQTT](Relay_Control_via_Node_RED_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto | Relay module on GP15 controlled remotely via MQTT  toggled using a Node-RED dashboard switch | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
