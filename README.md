@@ -159,6 +159,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 85 | [Virtual LED Control via Node-RED Dashboard & MQTT](Virtual_LED_Control_via_Node_RED_Dashboard_&_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto + Docker | Virtual LED control via Node-RED dashboard & MQTT — onboard LED toggle with virtual ON/OFF button over MQTT broker | ✅ |
 | 86 | [Joystick MQTT Controller with Node-RED Dashboard](Joystick_MQTT_Controller_with_Node_RED_Dashboard/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto + Docker | Analog joystick X/Y and button state published as JSON over MQTT — decomposed and visualized on Node-RED dashboard widgets | ✅ |
 | 87 | [Relay Control via Node-RED & MQTT](Relay_Control_via_Node_RED_&_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto | Relay module on GP15 controlled remotely via MQTT  toggled using a Node-RED dashboard switch | ✅ |
+| 88 | [NeoPixel Control via Node-RED & MQTT](NeoPixel_Control_via_Node_RED_&_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto | WS2812 NeoPixel ring on GP0 controlled remotely via MQTT with RGB color and blink delay set from Node-RED dashboard sliders | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
