@@ -162,6 +162,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 88 | [NeoPixel Control via Node-RED & MQTT](NeoPixel_Control_via_Node_RED_&_MQTT/README.md) | Pico 2W + MicroPython + Node-RED + Mosquitto | WS2812 NeoPixel ring on GP0 controlled remotely via MQTT with RGB color and blink delay set from Node-RED dashboard sliders | ✅ |
 | 89 | [MQTT DateTime Display on LCD](MQTT_DateTime_Display_on_LCD/README.md) | Pico W + MicroPython + MQTT + Mosquitto | 16x2 I2C LCD on GP14/GP15 displays real-time date and time by subscribing to an MQTT broker topic with JSON payloads | ✅ |
 | 90 | [MQTT Servo Controller](MQTT_Servo_Controller/README.md) | Pico W + MicroPython + MQTT + Mosquitto | Servo motor on GPIO 18 controlled remotely by subscribing to an MQTT broker topic, moves to angles 0–180 via PWM | ✅ |
+| 91 | [DHT11 MQTT Node-RED Dashboard](Pico_DHT11_MQTT_Dashboard/README.md) | Pico W + MicroPython + MQTT + Mosquitto + Node-RED + Docker + Oracle Cloud | DHT11 sensor on GPIO 18 publishes temperature and humidity to MQTT broker every 5 seconds, visualized as live gauges on a Node-RED dashboard running in Docker on Oracle Cloud VM | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
