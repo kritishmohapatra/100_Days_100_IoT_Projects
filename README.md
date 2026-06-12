@@ -163,6 +163,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 89 | [MQTT DateTime Display on LCD](MQTT_DateTime_Display_on_LCD/README.md) | Pico W + MicroPython + MQTT + Mosquitto | 16x2 I2C LCD on GP14/GP15 displays real-time date and time by subscribing to an MQTT broker topic with JSON payloads | ✅ |
 | 90 | [MQTT Servo Controller](MQTT_Servo_Controller/README.md) | Pico W + MicroPython + MQTT + Mosquitto | Servo motor on GPIO 18 controlled remotely by subscribing to an MQTT broker topic, moves to angles 0–180 via PWM | ✅ |
 | 91 | [DHT11 MQTT Node-RED Dashboard](Pico_DHT11_MQTT_Dashboard/README.md) | Pico W + MicroPython + MQTT + Mosquitto + Node-RED + Docker + Oracle Cloud | DHT11 sensor on GPIO 18 publishes temperature and humidity to MQTT broker every 5 seconds, visualized as live gauges on a Node-RED dashboard running in Docker on Oracle Cloud VM | ✅ |
+| 92 | [Smart Home Automation  ESP32 + DHT22 + 4 Relay + Adafruit IO](Adafruit_IO_Smart_Home_Automation/README.md) | ESP32 + MicroPython + DHT22 + 4 Relay + Adafruit IO + MQTT + Wokwi | DHT22 sensor on GPIO 4 publishes temperature and humidity to Adafruit IO every 20 seconds, controls 4 relays (Fan, Humidifier, Light, Spare) via MQTT dashboard toggles simulated on Wokwi | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
