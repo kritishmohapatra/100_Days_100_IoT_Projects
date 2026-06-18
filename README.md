@@ -168,6 +168,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 94 | [GPS Clock & Location Display — Pico W + NEO-6M + OLED](GPS_Clock_and_Location_Display_(NEO_6M_OLED)/README.md) | Raspberry Pi Pico W + MicroPython + NEO-6M GPS + SSD1306 OLED + I2C | Parses NMEA sentences (GPRMC/GPGGA) to display satellite-synced IST time, live latitude/longitude, speed, satellite count, and altitude on OLED — no WiFi/internet required | ✅ |
 | 95 | [PicoSense Dashboard Pico 2W + DHT11 + Streamlit](PicoSense_Dashboard/README.md) | Raspberry Pi Pico 2W + MicroPython + DHT11 + MQTT (Mosquitto) + Streamlit | Publishes live temperature/humidity over MQTT and subscribes to LED control commands; Streamlit dashboard displays real-time readings with line chart and ON/OFF buttons to control two LEDs remotely | ✅ |
 | 96 | [ESP32 Joke Fetcher](ESP32_Programming_Joke_Fetcher/README.md) | ESP32 + MicroPython + JokeAPI (HTTP/REST) | Connects to WiFi and polls JokeAPI's Programming category over HTTPS at a fixed interval, parsing the JSON response and printing a new joke to the serial console every cycle | ✅ |
+| 97 | [PIR Parking System](PIR_Sensor_Based_Parking_System_(ESP32_MicroPython)/README.md) | ESP32 + MicroPython + PIR Sensor + SSD1306 OLED | Tracks 2 parking slots using PIR sensors with a toggle approach, displaying live occupancy and total free spaces on an SSD1306 OLED screen | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
