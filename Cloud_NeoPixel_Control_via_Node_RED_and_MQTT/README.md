@@ -34,7 +34,7 @@ NeoPixel Strip (8 pixels)
 
 ## Hardware / Simulation
 
-- ESP32 ![simulated in Wokwi]()
+- ESP32 [simulated in Wokwi](https://wokwi.com/projects/467795525856316417)
 - NeoPixel Strip (8 pixels, connected to GPIO 15)
 
 ## Tech Stack
