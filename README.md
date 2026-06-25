@@ -170,6 +170,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 96 | [ESP32 Joke Fetcher](ESP32_Programming_Joke_Fetcher/README.md) | ESP32 + MicroPython + JokeAPI (HTTP/REST) | Connects to WiFi and polls JokeAPI's Programming category over HTTPS at a fixed interval, parsing the JSON response and printing a new joke to the serial console every cycle | ✅ |
 | 97 | [PIR Parking System](PIR_Sensor_Based_Parking_System_(ESP32_MicroPython)/README.md) | ESP32 + MicroPython + PIR Sensor + SSD1306 OLED | Tracks 2 parking slots using PIR sensors with a toggle approach, displaying live occupancy and total free spaces on an SSD1306 OLED screen | ✅ |
 | 98 | [Cloud NeoPixel Control](Cloud_NeoPixel_Control_via_Node_RED_and_MQTT/README.md) | AWS EC2 + Mosquitto + Node-RED + ESP32 + MicroPython + NeoPixel | Control a NeoPixel strip remotely via a Node-RED color picker dashboard over MQTT hosted on AWS EC2 | ✅ |
+| 99 | [Smart Irrigation System](Smart_Irrigation_System_via_Node_RED_and_MQTT/README.md) | AWS EC2 + Mosquitto + Node-RED + ESP32 + MicroPython + DHT22 + Potentiometer | Monitor soil moisture, temperature, and humidity in real time with manual pump control via a Node-RED dashboard over MQTT on AWS EC2 | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
