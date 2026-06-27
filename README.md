@@ -171,6 +171,7 @@ Each project is designed to teach a specific concept, sensor, or IoT technique �
 | 97 | [PIR Parking System](PIR_Sensor_Based_Parking_System_(ESP32_MicroPython)/README.md) | ESP32 + MicroPython + PIR Sensor + SSD1306 OLED | Tracks 2 parking slots using PIR sensors with a toggle approach, displaying live occupancy and total free spaces on an SSD1306 OLED screen | ✅ |
 | 98 | [Cloud NeoPixel Control](Cloud_NeoPixel_Control_via_Node_RED_and_MQTT/README.md) | AWS EC2 + Mosquitto + Node-RED + ESP32 + MicroPython + NeoPixel | Control a NeoPixel strip remotely via a Node-RED color picker dashboard over MQTT hosted on AWS EC2 | ✅ |
 | 99 | [Smart Irrigation System](Smart_Irrigation_System_via_Node_RED_and_MQTT/README.md) | AWS EC2 + Mosquitto + Node-RED + ESP32 + MicroPython + DHT22 + Potentiometer | Monitor soil moisture, temperature, and humidity in real time with manual pump control via a Node-RED dashboard over MQTT on AWS EC2 | ✅ |
+| 100 | [ESP-NOW Wireless LED Control with ShrikeFi](ESP_NOW_Wireless_LED_Control_with_ShrikeFi/README.md) | ESP32 DevKit + ShrikeFi (ESP32-S3 + ForgeFPGA) + MicroPython + ESP-NOW + SSD1306 | Toggle LEDs wirelessly on a Vicharak ShrikeFi board using ESP-NOW button presses with real-time status on an OLED display | ✅ |
 ##  Key Highlights
 
 -  Step-by-step progression from **basic to advanced IoT concepts**
